@@ -45453,8 +45453,7 @@ const dW = Cr(nW, [
           const r = await this.api.getRoom({ code: this.code });
           (this.room = r),
             (this.warnings = await n4.warningsForAppTag(r.appTag)),
-            Ws.set(this.room.locale),
-            (this.$i18n.locale = this.room.locale);
+            Ws.set(this.room.locale);
           const e = this.getBranchForRoom();
           if (!e) return;
           (this.branch = e), await this.preloadBundle();
