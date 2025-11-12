@@ -37162,7 +37162,7 @@ function tH(t, e, n, i, s, a) {
             (e[2] = q(
               "p",
               null,
-              "Something went wrong! But don't worry, you can try a few things to get going.",
+              "¡Algo salió mal! Pero no te preocupes, puedes probar algunas cosas para seguir.",
               -1
             )),
           e[3] ||
@@ -37170,15 +37170,15 @@ function tH(t, e, n, i, s, a) {
               "ul",
               null,
               [
-                q("li", null, "Refresh the page"),
+                q("li", null, "Recarga la página"),
                 q(
                   "li",
                   null,
-                  "Turn off adblockers or other browser extensions."
+                  "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."
                 ),
-                q("li", null, "Check your connection to the Internet."),
-                q("li", null, "Make sure you're using an up-to-date browser."),
-                q("li", null, "If that doesn't work, let us know."),
+                q("li", null, "Comprueba tu conexión a Internet."),
+                q("li", null, "Asegúrate de estar utilizando un navegador actualizado."),
+                q("li", null, "Si eso no funciona, háznoslo saber."),
               ],
               -1
             )),
@@ -37189,7 +37189,7 @@ function tH(t, e, n, i, s, a) {
                 e[0] ||
                 (e[0] = (...r) => t.onFeedbackClick && t.onFeedbackClick(...r)),
             },
-            "Tell us what happened"
+            "Dinos qué pasó"
           ),
           e[4] || (e[4] = q("hr", null, null, -1)),
           q("pre", eH, ut(t.message), 1),

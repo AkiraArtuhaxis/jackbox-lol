@@ -24001,7 +24001,7 @@ ${t}`
         },
         Pee = sc(() => K("h1", null, "Se ha producido un error", -1)),
         Lee = sc(() => K("p", null, "¡Algo salió mal! Pero no te preocupes, puedes probar algunas cosas para seguir.", -1)),
-        xee = sc(() => K("ul", null, [K("li", null, "Refresh the page"), K("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), K("li", null, "Comprueba tu conexión a Internet."), K("li", null, "Asegúrate de estar utilizando un navegador actualizado."), K("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
+        xee = sc(() => K("ul", null, [K("li", null, "Recarga la página"), K("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), K("li", null, "Comprueba tu conexión a Internet."), K("li", null, "Asegúrate de estar utilizando un navegador actualizado."), K("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
         Dee = sc(() => K("hr", null, null, -1)),
         Mee = {
             class: "error"

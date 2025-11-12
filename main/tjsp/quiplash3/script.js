@@ -32217,7 +32217,7 @@ ${e}`
     },
     Ise = Tu(() => Y("h1", null, "Se ha producido un error", -1)),
     Nse = Tu(() => Y("p", null, "¡Algo salió mal! Pero no te preocupes, puedes probar algunas cosas para seguir.", -1)),
-    Use = Tu(() => Y("ul", null, [Y("li", null, "Refresh the page"), Y("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), Y("li", null, "Comprueba tu conexión a Internet."), Y("li", null, "Asegúrate de estar utilizando un navegador actualizado."), Y("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
+    Use = Tu(() => Y("ul", null, [Y("li", null, "Recarga la página"), Y("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), Y("li", null, "Comprueba tu conexión a Internet."), Y("li", null, "Asegúrate de estar utilizando un navegador actualizado."), Y("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
     wse = Tu(() => Y("hr", null, null, -1)),
     Bse = {
         class: "error"

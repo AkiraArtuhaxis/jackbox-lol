@@ -43469,7 +43469,7 @@ function x6(r, e, n, i, s, o) {
               "ul",
               null,
               [
-                Be("li", null, "Regarga la página"),
+                Be("li", null, "Recarga la página"),
                 Be(
                   "li",
                   null,

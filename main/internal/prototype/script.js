@@ -29719,7 +29719,7 @@ ${e}`
     },
     bae = vl(() => te("h1", null, "Se ha producido un error", -1)),
     Rae = vl(() => te("p", null, "¡Algo salió mal! Pero no te preocupes, puedes probar algunas cosas para seguir.", -1)),
-    Sae = vl(() => te("ul", null, [te("li", null, "Refresh the page"), te("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), te("li", null, "Comprueba tu conexión a Internet."), te("li", null, "Asegúrate de estar utilizando un navegador actualizado."), te("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
+    Sae = vl(() => te("ul", null, [te("li", null, "Recarga la página"), te("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), te("li", null, "Comprueba tu conexión a Internet."), te("li", null, "Asegúrate de estar utilizando un navegador actualizado."), te("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
     Lae = vl(() => te("hr", null, null, -1)),
     Aae = {
         class: "error"

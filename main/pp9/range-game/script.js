@@ -24272,7 +24272,7 @@ ${e}`
         },
         zie = Fu(() => ee("h1", null, "Se ha producido un error", -1)),
         Xie = Fu(() => ee("p", null, "¡Algo salió mal! Pero no te preocupes, puedes probar algunas cosas para seguir.", -1)),
-        Jie = Fu(() => ee("ul", null, [ee("li", null, "Refresh the page"), ee("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), ee("li", null, "Comprueba tu conexión a Internet."), ee("li", null, "Asegúrate de estar utilizando un navegador actualizado."), ee("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
+        Jie = Fu(() => ee("ul", null, [ee("li", null, "Recarga la página"), ee("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), ee("li", null, "Comprueba tu conexión a Internet."), ee("li", null, "Asegúrate de estar utilizando un navegador actualizado."), ee("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
         Qie = Fu(() => ee("hr", null, null, -1)),
         Zie = {
             class: "error"

@@ -24554,7 +24554,7 @@ const Hf = t => (Gr("data-v-a7272d53"), t = t(), Vr(), t),
     },
     Hpe = Hf(() => U("h1", null, "Se ha producido un error", -1)),
     Ype = Hf(() => U("p", null, "¡Algo salió mal! Pero no te preocupes, puedes probar algunas cosas para seguir.", -1)),
-    zpe = Hf(() => U("ul", null, [U("li", null, "Refresh the page"), U("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), U("li", null, "Comprueba tu conexión a Internet."), U("li", null, "Asegúrate de estar utilizando un navegador actualizado."), U("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
+    zpe = Hf(() => U("ul", null, [U("li", null, "Recarga la página"), U("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), U("li", null, "Comprueba tu conexión a Internet."), U("li", null, "Asegúrate de estar utilizando un navegador actualizado."), U("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
     Kpe = Hf(() => U("hr", null, null, -1)),
     Zpe = {
         class: "error"

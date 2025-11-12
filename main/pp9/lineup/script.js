@@ -24470,7 +24470,7 @@ ${t}`
         },
         gre = cc(() => W("h1", null, "Se ha producido un error", -1)),
         _re = cc(() => W("p", null, "¡Algo salió mal! Pero no te preocupes, puedes probar algunas cosas para seguir.", -1)),
-        mre = cc(() => W("ul", null, [W("li", null, "Refresh the page"), W("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), W("li", null, "Comprueba tu conexión a Internet."), W("li", null, "Asegúrate de estar utilizando un navegador actualizado."), W("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
+        mre = cc(() => W("ul", null, [W("li", null, "Recarga la página"), W("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), W("li", null, "Comprueba tu conexión a Internet."), W("li", null, "Asegúrate de estar utilizando un navegador actualizado."), W("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
         vre = cc(() => W("hr", null, null, -1)),
         yre = {
             class: "error"

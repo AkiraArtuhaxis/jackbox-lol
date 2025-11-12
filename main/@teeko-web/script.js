@@ -26855,7 +26855,7 @@ ${t}`
         },
         Ure = Xa(() => ye("h1", null, "Se ha producido un error", -1)),
         Bre = Xa(() => ye("p", null, "¡Algo salió mal! Pero no te preocupes, puedes probar algunas cosas para seguir.", -1)),
-        Fre = Xa(() => ye("ul", null, [ye("li", null, "Refresh the page"), ye("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), ye("li", null, "Comprueba tu conexión a Internet."), ye("li", null, "Asegúrate de estar utilizando un navegador actualizado."), ye("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
+        Fre = Xa(() => ye("ul", null, [ye("li", null, "Recarga la página"), ye("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), ye("li", null, "Comprueba tu conexión a Internet."), ye("li", null, "Asegúrate de estar utilizando un navegador actualizado."), ye("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
         Gre = Xa(() => ye("hr", null, null, -1)),
         Wre = {
             class: "error"

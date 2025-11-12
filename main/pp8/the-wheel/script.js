@@ -24368,7 +24368,7 @@ ${e}`
         },
         xoe = g1(() => A("h1", null, "Se ha producido un error", -1)),
         Aoe = g1(() => A("p", null, "¡Algo salió mal! Pero no te preocupes, puedes probar algunas cosas para seguir.", -1)),
-        Ioe = g1(() => A("ul", null, [A("li", null, "Refresh the page"), A("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), A("li", null, "Comprueba tu conexión a Internet."), A("li", null, "Asegúrate de estar utilizando un navegador actualizado."), A("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
+        Ioe = g1(() => A("ul", null, [A("li", null, "Recarga la página"), A("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), A("li", null, "Comprueba tu conexión a Internet."), A("li", null, "Asegúrate de estar utilizando un navegador actualizado."), A("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
         Loe = g1(() => A("hr", null, null, -1)),
         Moe = {
             class: "error"

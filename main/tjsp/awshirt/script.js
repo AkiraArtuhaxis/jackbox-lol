@@ -28792,7 +28792,7 @@ ${e}`
     },
     xse = bl(() => Y("h1", null, "Se ha producido un error", -1)),
     vse = bl(() => Y("p", null, "¡Algo salió mal! Pero no te preocupes, puedes probar algunas cosas para seguir.", -1)),
-    bse = bl(() => Y("ul", null, [Y("li", null, "Refresh the page"), Y("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), Y("li", null, "Comprueba tu conexión a Internet."), Y("li", null, "Asegúrate de estar utilizando un navegador actualizado."), Y("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
+    bse = bl(() => Y("ul", null, [Y("li", null, "Recarga la página"), Y("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), Y("li", null, "Comprueba tu conexión a Internet."), Y("li", null, "Asegúrate de estar utilizando un navegador actualizado."), Y("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
     yse = bl(() => Y("hr", null, null, -1)),
     Sse = {
         class: "error"

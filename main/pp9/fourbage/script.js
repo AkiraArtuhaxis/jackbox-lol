@@ -23984,7 +23984,7 @@ ${t}`
         },
         Uee = tc(() => Q("h1", null, "Se ha producido un error", -1)),
         Fee = tc(() => Q("p", null, "¡Algo salió mal! Pero no te preocupes, puedes probar algunas cosas para seguir.", -1)),
-        Bee = tc(() => Q("ul", null, [Q("li", null, "Refresh the page"), Q("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), Q("li", null, "Comprueba tu conexión a Internet."), Q("li", null, "Asegúrate de estar utilizando un navegador actualizado."), Q("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
+        Bee = tc(() => Q("ul", null, [Q("li", null, "Recarga la página"), Q("li", null, "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."), Q("li", null, "Comprueba tu conexión a Internet."), Q("li", null, "Asegúrate de estar utilizando un navegador actualizado."), Q("li", null, "Si eso no funciona, háznoslo saber.")], -1)),
         Gee = tc(() => Q("hr", null, null, -1)),
         jee = {
             class: "error"

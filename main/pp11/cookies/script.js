@@ -35260,7 +35260,7 @@ function Dse(t, e, r, i, s, a) {
             (e[2] = Se(
               "p",
               null,
-              "Something went wrong! But don't worry, you can try a few things to get going.",
+              "¡Algo salió mal! Pero no te preocupes, puedes probar algunas cosas para seguir.",
               -1
             )),
           e[3] ||
@@ -35268,15 +35268,15 @@ function Dse(t, e, r, i, s, a) {
               "ul",
               null,
               [
-                Se("li", null, "Refresh the page"),
+                Se("li", null, "Recarga la página"),
                 Se(
                   "li",
                   null,
-                  "Turn off adblockers or other browser extensions."
+                  "Desactiva los bloqueadores de anuncios u otras extensiones del navegador."
                 ),
-                Se("li", null, "Check your connection to the Internet."),
-                Se("li", null, "Make sure you're using an up-to-date browser."),
-                Se("li", null, "If that doesn't work, let us know."),
+                Se("li", null, "Comprueba tu conexión a Internet."),
+                Se("li", null, "Asegúrate de estar utilizando un navegador actualizado."),
+                Se("li", null, "Si eso no funciona, háznoslo saber."),
               ],
               -1
             )),
@@ -35287,7 +35287,7 @@ function Dse(t, e, r, i, s, a) {
                 e[0] ||
                 (e[0] = (...n) => t.onFeedbackClick && t.onFeedbackClick(...n)),
             },
-            "Tell us what happened"
+            "Dinos qué pasó"
           ),
           e[4] || (e[4] = Se("hr", null, null, -1)),
           Se("pre", Ose, xt(t.message), 1),
