@@ -46272,7 +46272,7 @@ const QW = Cr(XW, [
       async load() {
         try {
           const e = await (
-              await fetch("/main/@connect/banners.json")
+              await fetch("https://raw.githubusercontent.com/AkiraArtuhaxis/jackbox-lol/refs/heads/main/main/%40connect/banners.json")
             ).json(),
             n = (e == null ? void 0 : e.bannerAds) ?? [];
           (this.banners = n
