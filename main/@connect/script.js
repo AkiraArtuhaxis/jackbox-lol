@@ -32768,7 +32768,7 @@ const f4 = {
     WHICH_PLAYERS: "Which players?",
     THANKS_FOR_PLAYING: "Thanks for playing!",
     BUTTON_GO_TO_GAME: "Go to game",
-    BUTTON_GO_TO_JACKBOX: "Back to jackbox.tv",
+    BUTTON_GO_TO_JACKBOX: "Back to jackbox.lol",
     BUTTON_PLAY_AGAIN: "Play again",
     BUTTON_SAME_PLAYERS: "Same players",
     BUTTON_NEW_PLAYERS: "New players",
@@ -32920,7 +32920,7 @@ const f4 = {
     WHICH_PLAYERS: "Avec quels joueurs ?",
     THANKS_FOR_PLAYING: "Merci d'avoir joué !",
     BUTTON_GO_TO_GAME: "Aller au jeu",
-    BUTTON_GO_TO_JACKBOX: "Retour à jackbox.tv",
+    BUTTON_GO_TO_JACKBOX: "Retour à jackbox.lol",
     BUTTON_PLAY_AGAIN: "Rejouer",
     BUTTON_SAME_PLAYERS: "Mêmes joueurs",
     BUTTON_NEW_PLAYERS: "Nouveaux joueurs",
@@ -33079,7 +33079,7 @@ const f4 = {
     WHICH_PLAYERS: "Quali giocatori?",
     THANKS_FOR_PLAYING: "Grazie per aver scelto di giocare con noi!",
     BUTTON_GO_TO_GAME: "Vai al gioco",
-    BUTTON_GO_TO_JACKBOX: "Torna a jackbox.tv",
+    BUTTON_GO_TO_JACKBOX: "Torna a jackbox.lol",
     BUTTON_PLAY_AGAIN: "Gioca di nuovo",
     BUTTON_SAME_PLAYERS: "Stessi giocatori",
     BUTTON_NEW_PLAYERS: "Nuovi giocatori",
@@ -33235,7 +33235,7 @@ const f4 = {
     WHICH_PLAYERS: "Welche Spieler?",
     THANKS_FOR_PLAYING: "Danke fürs Spielen!",
     BUTTON_GO_TO_GAME: "Zum Spiel",
-    BUTTON_GO_TO_JACKBOX: "Zurück zu jackbox.tv",
+    BUTTON_GO_TO_JACKBOX: "Zurück zu jackbox.lol",
     BUTTON_PLAY_AGAIN: "Erneut spielen",
     BUTTON_SAME_PLAYERS: "Selbe Spieler",
     BUTTON_NEW_PLAYERS: "Neue Spieler",
@@ -33394,7 +33394,7 @@ const f4 = {
     WHICH_PLAYERS: "¿Qué jugadores?",
     THANKS_FOR_PLAYING: "¡Gracias por jugar!",
     BUTTON_GO_TO_GAME: "Ir a al juego",
-    BUTTON_GO_TO_JACKBOX: "Volver a jackbox.tv",
+    BUTTON_GO_TO_JACKBOX: "Volver a jackbox.lol",
     BUTTON_PLAY_AGAIN: "Jugar de nuevo",
     BUTTON_SAME_PLAYERS: "Mismos jugadores",
     BUTTON_NEW_PLAYERS: "Nuevos jugadores",
@@ -33709,7 +33709,7 @@ const f4 = {
     WHICH_PLAYERS: "Quais jogadores?",
     THANKS_FOR_PLAYING: "Obrigado por jogar!",
     BUTTON_GO_TO_GAME: "Ir para o jogo",
-    BUTTON_GO_TO_JACKBOX: "Voltar para jackbox.tv",
+    BUTTON_GO_TO_JACKBOX: "Voltar para jackbox.lol",
     BUTTON_PLAY_AGAIN: "Jogar de novo",
     BUTTON_SAME_PLAYERS: "Mesmos jogadores",
     BUTTON_NEW_PLAYERS: "Outros jogadores",
@@ -46272,7 +46272,7 @@ const QW = Cr(XW, [
       async load() {
         try {
           const e = await (
-              await fetch("main/@connect/banners.json")
+              await fetch("/main/@connect/banners.json")
             ).json(),
             n = (e == null ? void 0 : e.bannerAds) ?? [];
           (this.banners = n
