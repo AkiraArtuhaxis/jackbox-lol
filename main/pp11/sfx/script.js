@@ -41896,33 +41896,33 @@ const vJ = (t) => {
       }),
     });
   },
-  yJ = { BLOOPER_REEL: "blooper reel" },
+  yJ = { BLOOPER_REEL: "bloopers" },
   TJ = {
-    AVATAR_0: "A doofy looking duck",
-    AVATAR_1: "A pair of eyes poking out from under a blanket",
-    AVATAR_2: "Two eyes on top of two legs",
-    AVATAR_3: "A geometric diamond with eye, legs and a long nose",
-    AVATAR_4: "An ink blob void with tiny eyes",
-    AVATAR_5: "A very friendly little worm",
-    AVATAR_6: "A fluffy cloud with tiny eyes",
-    AVATAR_7: "A blob of blue clay with one big eye",
+    AVATAR_0: "Un pato de aspecto tonto",
+    AVATAR_1: "Un par de ojos que sobresalen de debajo de una manta",
+    AVATAR_2: "Dos ojos encima de dos piernas",
+    AVATAR_3: "Un diamante geométrico con ojo, patas y nariz larga",
+    AVATAR_4: "Una gota de tinta con pequeños ojos",
+    AVATAR_5: "Un pequeño gusano muy amigable",
+    AVATAR_6: "Una nube esponjosa con ojos diminutos",
+    AVATAR_7: "Una gota de arcilla azul con un ojo grande",
   },
   bJ = {
-    ACKNOWLEDGE: "Got it",
+    ACKNOWLEDGE: "Entendido",
     AUDIENCE:
-      "Hear Say works best when you play with a microphone, but you can still participate without one. Continue microphone setup?",
+      "Hear Say funciona mejor cuando se juega con micrófono, pero también se puede participar sin él. ¿Continuar con la configuración del micrófono?",
     DENY: "Nah",
-    NO_ACCESS: "Ruh-roh, it looks like your browser can't access a microphone.",
+    NO_ACCESS: "Oh-oh, parece que tu navegador no puede acceder a un micrófono.",
     NO_ACCESS_INFO:
-      "Please go to the settings for your browser and enable microphone access. Then refresh.",
+      "Accede a la configuración de tu navegador y activa el acceso al micrófono. Luego, actualiza la página.",
     NO_DEVICES:
-      "We are not able to find any connected input devices. Please plug in a microphone and refresh.",
+      "No encontramos ningún dispositivo de entrada conectado. Conecta un micrófono y actualiza la página.",
     WILL_ASK:
-      "Hear Say needs access to your microphone to work properly. On the next screen your browser will ask you for permission.",
+      "Hear Say necesita acceder a tu micrófono para funcionar correctamente. En la siguiente pantalla, tu navegador te solicitará permiso.",
   },
-  RJ = { GIVE_LIKES: "Give some likes", VOTE_FOR_ONE: "Vote for one!" },
+  RJ = { GIVE_LIKES: "Da algunos likes", VOTE_FOR_ONE: "¡Vota por uno!" },
   xJ = {
-    ICON: "We're no longer using your mic! On certain devices icons stay visible, they'll disappear once you refresh your browser. Thanks!",
+    ICON: "¡Ya no estamos usando tu micrófono! En algunos dispositivos, los iconos permanecen visibles y desaparecerán al actualizar el navegador. ¡Gracias!",
   },
   SJ = { ALT: yJ, AVATARS: TJ, PERMISSIONS: bJ, VOTING: RJ, POST_GAME: xJ },
   CJ = { en: SJ };
@@ -42070,8 +42070,8 @@ class AJ extends u7 {
     );
   }
   formatDeviceName(n, i) {
-    let s = n.label || `Microphone (${n.deviceId.slice(0, 8)})`;
-    return (s = s.replace(/ \([^()]*\)/g, "")), i && (s += " (Default)"), s;
+    let s = n.label || `Micrófono (${n.deviceId.slice(0, 8)})`;
+    return (s = s.replace(/ \([^()]*\)/g, "")), i && (s += " (Por defecto)"), s;
   }
   updateDeviceList(n) {
     const i = new Set(n.map((a) => a.id)),
@@ -55905,16 +55905,16 @@ function Hne(t, e, n, i, s, a) {
             { class: "message", style: jr(t.scoreStyles) },
             [
               t.game.data.status === "waiting"
-                ? (Y(), ne("span", qne, "Get Ready"))
+                ? (Y(), ne("span", qne, "Prepárate"))
                 : Ve("", !0),
               t.game.data.status === "active"
                 ? (Y(), ne("span", Gne, ut(t.game.score), 1))
                 : Ve("", !0),
               t.game.data.status === "active"
-                ? (Y(), ne("span", jne, "GO!"))
+                ? (Y(), ne("span", jne, "¡YA!"))
                 : Ve("", !0),
               t.game.data.status === "finished"
-                ? (Y(), ne("span", Wne, "Done!"))
+                ? (Y(), ne("span", Wne, "¡Hecho!"))
                 : Ve("", !0),
             ],
             4
@@ -56853,7 +56853,7 @@ const $h = rt(Kie, [
     ["__scopeId", "data-v-90800b12"],
   ]),
   qie = pt({ props: { text: { type: String, required: !1 } } }),
-  Gie = { class: "edge-button left replay-button", "aria-label": "replay" },
+  Gie = { class: "edge-button left replay-button", "aria-label": "repetir" },
   jie = { key: 0, viewBox: "0 0 200 150", class: "text" },
   Wie = { href: "#replay-path", startOffset: "50%", "text-anchor": "middle" };
 function Xie(t, e, n, i, s, a) {
@@ -56891,7 +56891,7 @@ const _D = rt(qie, [
     ["__scopeId", "data-v-90e9f51c"],
   ]),
   Hie = pt({ props: { text: { type: String, required: !1 } } }),
-  Yie = { class: "edge-button right retry-button", "aria-label": "retry" },
+  Yie = { class: "edge-button right retry-button", "aria-label": "reintentar" },
   zie = { key: 0, viewBox: "0 0 200 150", class: "text" },
   Jie = { href: "#retry-path", startOffset: "50%", "text-anchor": "middle" };
 function Zie(t, e, n, i, s, a) {
@@ -56929,7 +56929,7 @@ const mD = rt(Hie, [
     ["__scopeId", "data-v-47c8f7e4"],
   ]),
   Qie = {},
-  ese = { class: "start-button", "aria-label": "start the game" };
+  ese = { class: "start-button", "aria-label": "empezar el juego" };
 function tse(t, e) {
   return (
     Y(),
@@ -56939,7 +56939,7 @@ function tse(t, e) {
       e[0] ||
         (e[0] = [
           va(
-            '<svg viewBox="0 0 200 200" class="sketch" data-v-17f39e52><circle class="background" cx="100" cy="100" r="100" data-v-17f39e52></circle><circle class="line" cx="100" cy="100" r="104" data-v-17f39e52></circle><path class="fill" d="M59.06,108.07c.53-2.13,3.55-2.84,3.89-4.72.41-2.26-2.52-3.32-2.37-6.28.13-2.58,2.65-7.78,4.85-9.22.58-.38,6.88-3.03,7.47-3.09,1.58-.16,6.96.3,8.74.51,1.96.23,6.93,2.47,7.98.38.94-2.74-2.14-3.49-3.5-5.3-3.79-5.06-4.94-15.89-2.33-21.61,2.42-5.29,10.56-10.43,14.75-4.44,2.32,3.32,1.44,5.18,1.88,8.67.69,5.39,6.31,12.96,10.49,16.32,3.14,2.52,7.63,3.61,10.32,5.94,3.23,2.8,2.81,7.11,8.36,6.59,2.2-.21,3.08-1.59,5.61-.34,1.49.74,1.84,2.12,2.03,3.68.74,6.21,1.09,18.49-.58,24.37-.75,2.64-3.55,4.44-6.21,4.77-2.45.31-5.18-1.14-6.78-.66-1.3.39-2.35,2.7-3.8,3.7-9.62,6.69-25.78,6.72-36.87,9.28l-1.06.46h-1.32c-5.33-1.22-9.58-2.22-11.74-7.81-1.51-3.9.39-3.9.75-6.51.47-3.47-2.43-2.49-4.74-3.12-1.51-.41-4.14-2.58-4.81-3.98s-.19-2.86-.98-4.08v-3.52ZM98.02,116.99c2.47,2.21,1.78,5.71-.53,7.76-1.24,1.1-9.1,4.48-5.93,6.39,2.44.9,4.53-1.2,6.8-1.99,6.12-2.14,12.18-2.65,17.77-6.39,2.1-1.4,4.34-5.03,6.51-5.39,2.57-.43,4.12,3.7,7.09,1.87,2.64-1.62.88-4.44.92-6.56.07-3.46.17-8.01.44-11.43.13-1.68,1.7-3.52.21-5.04-2.69-2.76-5.25,2.81-8.3.82-1.08-.7-3.61-6.25-5.96-8.09-1.85-1.45-4.16-1.84-6.13-3.1-5.91-3.77-15.48-14.8-15.85-21.96-.1-1.88,1.48-7.89-2.37-7.68-3.49.19-5.13,6.69-5.13,9.46,0,3.38,2.68,12.44,4.51,15.31,1.66,2.61,4.78,3.61,6.59,7.03,1.42,2.67,2.02,7.73,3.5,9.68,1.28,1.69,7.39,3.36,4.81,6.69-2.55,3.3-8.55-2.63-9.61-5.41-.99-2.58-1.3-11.13-4.77-11.46-4.37-.42.26,5.99.31,7.61.06,2.25-2.21,3.44-1.72,5.16.33,1.16,3.24,1.88,4.34,3.16,1.47,1.72,2.46,4.88,1.26,6.99-.87,1.53-4.6,2.02-3.86,4.37.43,1.35,3.8,1.03,5.09,2.19ZM73.84,89.76c-5.62.29-12.74,12.59-2.25,12.17,4.46-.18,19.38-2.17,17.24-9.38-.71-2.41-4.03-1.41-5.83-1.64-2.83-.35-6.35-1.3-9.17-1.16ZM86.62,103.78c-1.32.25-3.01,1.5-4.28,1.87-2.16.63-7.23,1.27-9.46,1.12-2.41-.17-6.74-2.5-7.91,1.28-1.53,4.94,1.95,8.28,6.61,8.81,5.19.59,14.68-2.02,18.47-5.7s2.21-8.46-3.43-7.39ZM91.36,117.94c-3.68.65-7.12,2.28-10.74,3.11-3.81.88-8.25-.64-6.95,5.59.68,3.24,6.31,6.89,9.27,4.64,2.37-3.35,17.2-10.23,8.43-13.34Z" data-v-17f39e52></path><path class="fingers" d="M131.11,101.25c.13-1.68,1.7-3.52.21-5.04-2.69-2.76-5.25,2.81-8.3.82-1.08-.7-3.61-6.25-5.96-8.09-1.85-1.45-4.16-1.84-6.13-3.1-5.91-3.77-15.48-14.8-15.85-21.96-.1-1.88,1.48-7.89-2.37-7.68-3.49.19-5.13,6.69-5.13,9.46,0,3.38,2.68,12.44,4.51,15.31,1.66,2.61,4.78,3.61,6.59,7.03,1.42,2.67,2.02,7.73,3.5,9.68,1.28,1.69,7.39,3.36,4.81,6.69-2.55,3.3-8.55-2.63-9.61-5.41-.99-2.58-1.3-11.13-4.77-11.46-4.37-.42.26,5.99.31,7.61.06,2.25-2.21,3.44-1.72,5.16.33,1.16,3.24,1.88,4.34,3.16,1.47,1.72,2.46,4.88,1.26,6.99-.87,1.53-4.6,2.02-3.86,4.37.43,1.35,3.8,1.03,5.09,2.19,2.47,2.21,1.78,5.71-.53,7.76-1.24,1.1-9.1,4.48-5.93,6.39,2.44.9,4.53-1.2,6.8-1.99,6.12-2.14,12.18-2.65,17.77-6.39,2.09-1.4,4.34-5.03,6.51-5.39,2.57-.43,4.12,3.7,7.09,1.87,2.64-1.62.88-4.44.92-6.56.07-3.46.17-8.01.44-11.43ZM90.05,111.16c3.78-3.67,2.21-8.46-3.43-7.39-1.32.25-3.01,1.5-4.28,1.87-2.16.63-7.23,1.27-9.46,1.12-2.41-.17-6.74-2.5-7.91,1.28-1.53,4.94,1.95,8.28,6.61,8.81,5.19.59,14.68-2.02,18.47-5.7ZM71.6,101.94c4.46-.18,19.38-2.17,17.24-9.38-.71-2.41-4.03-1.41-5.83-1.64-2.83-.35-6.35-1.3-9.17-1.16-5.62.29-12.74,12.59-2.25,12.17ZM91.36,117.94c-3.68.65-7.12,2.28-10.74,3.11-3.81.88-8.25-.64-6.95,5.59.68,3.24,6.31,6.89,9.27,4.64,2.37-3.35,17.2-10.23,8.43-13.34Z" data-v-17f39e52></path></svg><svg viewBox="0 0 200 200" class="text" data-v-17f39e52><defs data-v-17f39e52><path id="start-path" d="M55.01,136.97c-12.26-14.95-16.81-35.69-10.24-55.39,10.17-30.5,43.15-46.98,73.65-36.81,30.5,10.17,46.98,43.15,36.81,73.65-6.57,19.7-22.65,33.55-41.44,38.15" data-v-17f39e52></path></defs><text data-v-17f39e52><textPath href="#start-path" startOffset="50%" text-anchor="middle" data-v-17f39e52>START THE GAME</textPath></text></svg>',
+            '<svg viewBox="0 0 200 200" class="sketch" data-v-17f39e52><circle class="background" cx="100" cy="100" r="100" data-v-17f39e52></circle><circle class="line" cx="100" cy="100" r="104" data-v-17f39e52></circle><path class="fill" d="M59.06,108.07c.53-2.13,3.55-2.84,3.89-4.72.41-2.26-2.52-3.32-2.37-6.28.13-2.58,2.65-7.78,4.85-9.22.58-.38,6.88-3.03,7.47-3.09,1.58-.16,6.96.3,8.74.51,1.96.23,6.93,2.47,7.98.38.94-2.74-2.14-3.49-3.5-5.3-3.79-5.06-4.94-15.89-2.33-21.61,2.42-5.29,10.56-10.43,14.75-4.44,2.32,3.32,1.44,5.18,1.88,8.67.69,5.39,6.31,12.96,10.49,16.32,3.14,2.52,7.63,3.61,10.32,5.94,3.23,2.8,2.81,7.11,8.36,6.59,2.2-.21,3.08-1.59,5.61-.34,1.49.74,1.84,2.12,2.03,3.68.74,6.21,1.09,18.49-.58,24.37-.75,2.64-3.55,4.44-6.21,4.77-2.45.31-5.18-1.14-6.78-.66-1.3.39-2.35,2.7-3.8,3.7-9.62,6.69-25.78,6.72-36.87,9.28l-1.06.46h-1.32c-5.33-1.22-9.58-2.22-11.74-7.81-1.51-3.9.39-3.9.75-6.51.47-3.47-2.43-2.49-4.74-3.12-1.51-.41-4.14-2.58-4.81-3.98s-.19-2.86-.98-4.08v-3.52ZM98.02,116.99c2.47,2.21,1.78,5.71-.53,7.76-1.24,1.1-9.1,4.48-5.93,6.39,2.44.9,4.53-1.2,6.8-1.99,6.12-2.14,12.18-2.65,17.77-6.39,2.1-1.4,4.34-5.03,6.51-5.39,2.57-.43,4.12,3.7,7.09,1.87,2.64-1.62.88-4.44.92-6.56.07-3.46.17-8.01.44-11.43.13-1.68,1.7-3.52.21-5.04-2.69-2.76-5.25,2.81-8.3.82-1.08-.7-3.61-6.25-5.96-8.09-1.85-1.45-4.16-1.84-6.13-3.1-5.91-3.77-15.48-14.8-15.85-21.96-.1-1.88,1.48-7.89-2.37-7.68-3.49.19-5.13,6.69-5.13,9.46,0,3.38,2.68,12.44,4.51,15.31,1.66,2.61,4.78,3.61,6.59,7.03,1.42,2.67,2.02,7.73,3.5,9.68,1.28,1.69,7.39,3.36,4.81,6.69-2.55,3.3-8.55-2.63-9.61-5.41-.99-2.58-1.3-11.13-4.77-11.46-4.37-.42.26,5.99.31,7.61.06,2.25-2.21,3.44-1.72,5.16.33,1.16,3.24,1.88,4.34,3.16,1.47,1.72,2.46,4.88,1.26,6.99-.87,1.53-4.6,2.02-3.86,4.37.43,1.35,3.8,1.03,5.09,2.19ZM73.84,89.76c-5.62.29-12.74,12.59-2.25,12.17,4.46-.18,19.38-2.17,17.24-9.38-.71-2.41-4.03-1.41-5.83-1.64-2.83-.35-6.35-1.3-9.17-1.16ZM86.62,103.78c-1.32.25-3.01,1.5-4.28,1.87-2.16.63-7.23,1.27-9.46,1.12-2.41-.17-6.74-2.5-7.91,1.28-1.53,4.94,1.95,8.28,6.61,8.81,5.19.59,14.68-2.02,18.47-5.7s2.21-8.46-3.43-7.39ZM91.36,117.94c-3.68.65-7.12,2.28-10.74,3.11-3.81.88-8.25-.64-6.95,5.59.68,3.24,6.31,6.89,9.27,4.64,2.37-3.35,17.2-10.23,8.43-13.34Z" data-v-17f39e52></path><path class="fingers" d="M131.11,101.25c.13-1.68,1.7-3.52.21-5.04-2.69-2.76-5.25,2.81-8.3.82-1.08-.7-3.61-6.25-5.96-8.09-1.85-1.45-4.16-1.84-6.13-3.1-5.91-3.77-15.48-14.8-15.85-21.96-.1-1.88,1.48-7.89-2.37-7.68-3.49.19-5.13,6.69-5.13,9.46,0,3.38,2.68,12.44,4.51,15.31,1.66,2.61,4.78,3.61,6.59,7.03,1.42,2.67,2.02,7.73,3.5,9.68,1.28,1.69,7.39,3.36,4.81,6.69-2.55,3.3-8.55-2.63-9.61-5.41-.99-2.58-1.3-11.13-4.77-11.46-4.37-.42.26,5.99.31,7.61.06,2.25-2.21,3.44-1.72,5.16.33,1.16,3.24,1.88,4.34,3.16,1.47,1.72,2.46,4.88,1.26,6.99-.87,1.53-4.6,2.02-3.86,4.37.43,1.35,3.8,1.03,5.09,2.19,2.47,2.21,1.78,5.71-.53,7.76-1.24,1.1-9.1,4.48-5.93,6.39,2.44.9,4.53-1.2,6.8-1.99,6.12-2.14,12.18-2.65,17.77-6.39,2.09-1.4,4.34-5.03,6.51-5.39,2.57-.43,4.12,3.7,7.09,1.87,2.64-1.62.88-4.44.92-6.56.07-3.46.17-8.01.44-11.43ZM90.05,111.16c3.78-3.67,2.21-8.46-3.43-7.39-1.32.25-3.01,1.5-4.28,1.87-2.16.63-7.23,1.27-9.46,1.12-2.41-.17-6.74-2.5-7.91,1.28-1.53,4.94,1.95,8.28,6.61,8.81,5.19.59,14.68-2.02,18.47-5.7ZM71.6,101.94c4.46-.18,19.38-2.17,17.24-9.38-.71-2.41-4.03-1.41-5.83-1.64-2.83-.35-6.35-1.3-9.17-1.16-5.62.29-12.74,12.59-2.25,12.17ZM91.36,117.94c-3.68.65-7.12,2.28-10.74,3.11-3.81.88-8.25-.64-6.95,5.59.68,3.24,6.31,6.89,9.27,4.64,2.37-3.35,17.2-10.23,8.43-13.34Z" data-v-17f39e52></path></svg><svg viewBox="0 0 200 200" class="text" data-v-17f39e52><defs data-v-17f39e52><path id="start-path" d="M55.01,136.97c-12.26-14.95-16.81-35.69-10.24-55.39,10.17-30.5,43.15-46.98,73.65-36.81,30.5,10.17,46.98,43.15,36.81,73.65-6.57,19.7-22.65,33.55-41.44,38.15" data-v-17f39e52></path></defs><text data-v-17f39e52><textPath href="#start-path" startOffset="50%" text-anchor="middle" data-v-17f39e52>EMPEZAR EL JUEGO</textPath></text></svg>',
             2
           ),
         ])
@@ -57092,7 +57092,7 @@ function fse(t, e, n, i, s, a) {
               ? (Y(),
                 Yt(
                   c,
-                  { key: 0, text: "Replay", onClick: t.onPlayClick },
+                  { key: 0, text: "Repetir", onClick: t.onPlayClick },
                   null,
                   8,
                   ["onClick"]
@@ -57119,7 +57119,7 @@ function fse(t, e, n, i, s, a) {
               ? (Y(),
                 Yt(
                   h,
-                  { key: 0, text: "Retry", onClick: t.onRerecordClick },
+                  { key: 0, text: "Reintentar", onClick: t.onRerecordClick },
                   null,
                   8,
                   ["onClick"]
@@ -57196,7 +57196,7 @@ function _se(t, e, n, i, s, a) {
         (e[1] = q(
           "p",
           { class: "message" },
-          [q("span", null, "Make Noise")],
+          [q("span", null, "Haz ruido")],
           -1
         )),
       q(
@@ -57666,13 +57666,13 @@ const nae = pt({
       buttonText() {
         switch (this.status) {
           case "countout":
-            return "Send it";
+            return "Enviarlo";
           case "error":
             return "ERROR";
           case "recording":
-            return "Recording";
+            return "Grabando";
           case "waiting":
-            return "Record";
+            return "Grabar";
           default:
             return "";
         }
@@ -57724,9 +57724,9 @@ const nae = pt({
       statusText() {
         switch (this.status) {
           case "processing":
-            return "Processing";
+            return "Procesando";
           case "sending":
-            return "Sending";
+            return "Enviando";
           default:
             return "";
         }
@@ -57848,7 +57848,7 @@ const dae = rt(nae, [
       },
       displayDuration() {
         const t = Math.round(this.player.durationMs / 1e3) || 1;
-        return `about ${t} ${t === 1 ? "second" : "seconds"} long`;
+        return `aprox. ${t} ${t === 1 ? "segundo" : "segundos"}`;
       },
       info() {
         return this.player.totalPrompts <= 1
@@ -58008,7 +58008,7 @@ function Lae(t, e, n, i, s, a) {
         ft(
           r,
           { info: t.info },
-          { default: Ps(() => e[0] || (e[0] = [Sr("Record a sound")])), _: 1 },
+          { default: Ps(() => e[0] || (e[0] = [Sr("Graba un sonido")])), _: 1 },
           8,
           ["info"]
         ),
@@ -58067,7 +58067,7 @@ function Lae(t, e, n, i, s, a) {
                   e[1] ||
                     (e[1] = [
                       Sr(
-                        " Please check your microphone and refresh your browser."
+                        " Por favor revisa tu micrófono y recarga tu navegador."
                       ),
                       q("span", null, "(sfx-00)", -1),
                     ])
@@ -58081,7 +58081,7 @@ function Lae(t, e, n, i, s, a) {
                   e[2] ||
                     (e[2] = [
                       Sr(
-                        " Please check your microphone and refresh your browser."
+                        " Por favor revisa tu micrófono y recarga tu navegador."
                       ),
                       q("span", null, "(sfx-01)", -1),
                     ])
@@ -58095,7 +58095,7 @@ function Lae(t, e, n, i, s, a) {
                   e[3] ||
                     (e[3] = [
                       Sr(
-                        " Please check your microphone and refresh your browser."
+                        " Por favor revisa tu micrófono y recarga tu navegador."
                       ),
                       q("span", null, "(sfx-02)", -1),
                     ])
@@ -58109,7 +58109,7 @@ function Lae(t, e, n, i, s, a) {
                   e[4] ||
                     (e[4] = [
                       Sr(
-                        " Please check your microphone and refresh your browser."
+                        " Por favor revisa tu micrófono y recarga tu navegador."
                       ),
                       q("span", null, "(sfx-03)", -1),
                     ])
@@ -58123,7 +58123,7 @@ function Lae(t, e, n, i, s, a) {
                   e[5] ||
                     (e[5] = [
                       Sr(
-                        " We were unable to send your audio. Check your connection"
+                        " No pudimos enviar tu audio. Comprueba tu conexión."
                       ),
                       q("span", null, "(sfx-04)", -1),
                     ])
@@ -58136,7 +58136,7 @@ function Lae(t, e, n, i, s, a) {
                   Aae,
                   e[6] ||
                     (e[6] = [
-                      Sr(" Please refresh your browser."),
+                      Sr(" Por favor recarga tu navegador."),
                       q("span", null, "(sfx-05)", -1),
                     ])
                 ))
@@ -58370,7 +58370,7 @@ const Xae = rt(Gae, [
       info() {
         return !this.player.currentPromptNumber || !this.player.totalPrompts
           ? null
-          : `${this.player.currentPromptNumber} of ${this.player.totalPrompts}`;
+          : `${this.player.currentPromptNumber} de ${this.player.totalPrompts}`;
       },
       prompt() {
         return this.player.kind === "voting"
@@ -58553,7 +58553,7 @@ function roe(t, e, n, i, s, a) {
       ft(r, { avatar: t.info.avatar ?? 3, class: "outline-thick" }, null, 8, [
         "avatar",
       ]),
-      q("p", toe, ut(t.player.message ?? "Waiting"), 1),
+      q("p", toe, ut(t.player.message ?? "Esperando"), 1),
     ])
   );
 }
@@ -58572,7 +58572,7 @@ function soe(t, e) {
       e[0] ||
         (e[0] = [
           va(
-            '<span class="background" data-v-5bb9ed58></span><svg class="sketch" viewBox="0 0 200 200" data-v-5bb9ed58><path class="line" d="M155,85v-36c0-2.21-1.79-4-4-4h-36.32" data-v-5bb9ed58></path><path class="door line" d="M114.68,200V30.31c0-2.66-2.55-4.58-5.1-3.84l-64.58,18.54v155" data-v-5bb9ed58></path><polygon class="handle" points="101.5 128.6 91.29 127.6 91.29 118.4 101.5 117.4 101.5 128.6" data-v-5bb9ed58></polygon><line class="line" x1="132.68" y1="122" x2="155" y2="122" data-v-5bb9ed58></line><polygon class="line" points="154.77 103.76 172.93 121.92 154.77 140.08 154.77 103.76" data-v-5bb9ed58></polygon><line class="line" x1="154.77" y1="160" x2="154.77" y2="200" data-v-5bb9ed58></line></svg><span class="border sketch" data-v-5bb9ed58></span><span class="text" data-v-5bb9ed58>Leave</span>',
+            '<span class="background" data-v-5bb9ed58></span><svg class="sketch" viewBox="0 0 200 200" data-v-5bb9ed58><path class="line" d="M155,85v-36c0-2.21-1.79-4-4-4h-36.32" data-v-5bb9ed58></path><path class="door line" d="M114.68,200V30.31c0-2.66-2.55-4.58-5.1-3.84l-64.58,18.54v155" data-v-5bb9ed58></path><polygon class="handle" points="101.5 128.6 91.29 127.6 91.29 118.4 101.5 117.4 101.5 128.6" data-v-5bb9ed58></polygon><line class="line" x1="132.68" y1="122" x2="155" y2="122" data-v-5bb9ed58></line><polygon class="line" points="154.77 103.76 172.93 121.92 154.77 140.08 154.77 103.76" data-v-5bb9ed58></polygon><line class="line" x1="154.77" y1="160" x2="154.77" y2="200" data-v-5bb9ed58></line></svg><span class="border sketch" data-v-5bb9ed58></span><span class="text" data-v-5bb9ed58>Salir</span>',
             4
           ),
         ])
@@ -58699,7 +58699,7 @@ function yoe(t, e, n, i, s, a) {
                   (e[5] = q(
                     "p",
                     { class: "title" },
-                    "Select input device",
+                    "Elegir dispositivo de entrada",
                     -1
                   )),
                 q(
@@ -58757,7 +58757,7 @@ function yoe(t, e, n, i, s, a) {
                       128
                     )),
                   ]))
-                : (Y(), ne("p", goe, "No input devices found")),
+                : (Y(), ne("p", goe, "No se encontraron dispositivos de entrada")),
             ]),
           ],
           32
@@ -58782,7 +58782,7 @@ function xoe(t, e) {
       e[0] ||
         (e[0] = [
           va(
-            '<span class="background" data-v-37720b7d></span><svg class="sketch" viewBox="0 0 200 200" data-v-37720b7d><path class="line" d="M45,83v22c0,30.38,24.62,55,55,55s55-24.62,55-55v-22" data-v-37720b7d></path><line class="line" x1="100" y1="160" x2="100" y2="200" data-v-37720b7d></line><path class="line mic" d="M130,102c0,16.57-13.43,30-30,30s-30-13.43-30-30v-47c0-16.57,13.43-30,30-30s30,13.43,30,30v47Z" data-v-37720b7d></path></svg><span class="border sketch" data-v-37720b7d></span><span class="text" data-v-37720b7d>Mic options</span>',
+            '<span class="background" data-v-37720b7d></span><svg class="sketch" viewBox="0 0 200 200" data-v-37720b7d><path class="line" d="M45,83v22c0,30.38,24.62,55,55,55s55-24.62,55-55v-22" data-v-37720b7d></path><line class="line" x1="100" y1="160" x2="100" y2="200" data-v-37720b7d></line><path class="line mic" d="M130,102c0,16.57-13.43,30-30,30s-30-13.43-30-30v-47c0-16.57,13.43-30,30-30s30,13.43,30,30v47Z" data-v-37720b7d></path></svg><span class="border sketch" data-v-37720b7d></span><span class="text" data-v-37720b7d>Opciones del micrófono</span>',
             4
           ),
         ])
@@ -58903,28 +58903,28 @@ const Poe = rt(Ooe, [
       return {
         tips: [
           {
-            title: "Performance tips: ",
+            title: "Consejos de actuación: ",
             index: 0,
             tips: [
-              "Sounds are timed to fit specific game moments, so try to fill up all your recording time!",
-              "Not sure what to record? Listen to other players to get ideas!",
-              "Try it out once or twice for yourself before pressing Record!",
-              "Not sure how to perform? Try speaking like you’re super lazy or very much in a rush.",
-              "Want to stand out? Try speaking in all caps.",
-              "Pro tip: try saying your prompt in a loud whisper voice",
-              "Not sure how to perform? Try including dramatic pauses.",
-              "Try a character voice or accent you’re comfortable with.",
+              "Los sonidos están sincronizados para adaptarse a momentos específicos del juego, ¡así que intenta llenar todo tu tiempo de grabación!",
+              "¿No sabes qué grabar? ¡Escucha a otros jugadores para inspirarte!",
+              "¡Pruébalo tú mismo una o dos veces antes de presionar Grabar!",
+              "¿No sabes cómo actuar? Intenta hablar como si fueras muy perezoso o tuvieras mucha prisa.",
+              "¿Quieres destacarte? Intenta hablar en mayúsculas.",
+              "Un consejo: intenta decir tu enunciado en un susurro fuerte.",
+              "¿No sabes cómo actuar? Intenta incluir pausas dramáticas.",
+              "Prueba una voz o acento de personaje con el que te sientas cómodo/a.",
             ],
           },
           {
-            title: "Practical tips: ",
+            title: "Consejos prácticos: ",
             index: 0,
             tips: [
-              "Hold the mic to your mouth and check that you're not blocking it (It's the little pinhole!)",
-              "If your sounds feel too soft, get closer. If your sounds feel too loud, move away.",
-              "For the highest sound quality, use a phone or an external mic. Avoid laptop mics if you can!",
-              "Our microphones record you, not the room, but move around if you need to.",
-              "Mic issues? Tap the settings icon at the bottom left to make changes, or try refreshing!",
+              "Sostén el micrófono en tu boca y comprueba que no lo estés bloqueando (¡es el pequeño orificio!)",
+              "Si tus sonidos te parecen demasiado suaves, acércate. Si los sientes demasiado fuertes, aléjate.",
+              "Para tener la mejor calidad de sonido, usa un teléfono o un micrófono externo, pero evita los micrófonos de computadoras portátiles si puedes.",
+              "Nuestros micrófonos te graban a ti, no a la habitación, pero muévete a otro lugar si es necesario.",
+              "¿Problemas con el micrófono? Toca el icono de configuración en la esquina inferior izquierda para hacer cambios o prueba actualizar la página.",
             ],
           },
         ],
@@ -59023,7 +59023,7 @@ function Voe(t, e, n, i, s, a) {
                           "button",
                           {
                             class: "direction left sketch",
-                            "aria-label": "left",
+                            "aria-label": "izquierda",
                             disabled: f.index === 0,
                             onClick: (d) => t.onLeftClick(f),
                           },
@@ -59071,7 +59071,7 @@ function Voe(t, e, n, i, s, a) {
                           "button",
                           {
                             class: "direction right sketch",
-                            "aria-label": "right",
+                            "aria-label": "derecha",
                             disabled: f.index === f.tips.length - 1,
                             onClick: (d) => t.onRightClick(f),
                           },
@@ -59140,7 +59140,7 @@ function joe(t, e) {
       e[0] ||
         (e[0] = [
           va(
-            '<span class="background" data-v-d53660ee></span><svg class="sketch" viewBox="0 0 200 200" data-v-d53660ee><path class="line" d="M129.63,132.01c4.75,6.95,7.53,15.35,7.53,24.4s-2.72,17.29-7.39,24.19" data-v-d53660ee></path><path class="line" d="M152.16,115.23c8.24,11.63,13.08,25.84,13.08,41.18s-4.49,28.5-12.19,39.89" data-v-d53660ee></path><path class="face" d="M80.97,2.25c5.98,11.39,12.6,24.48,12.6,34.61,0,1.94,0,3.88-.02,5.8-.16,14.26,1.47,29.95,9.52,41.72l5.6,8.19c5.22,7.63,2.76,18.11-5.33,22.61l-6.23,3.47v17.65l-17.3,12.05c-4.67,3.25-4.45,10.22.41,13.17l13.34,8.1-12.75,28.98C34.76,189.65,0,149.1,0,100.44S34.84,11.13,80.97,2.25Z" data-v-d53660ee></path><path class="line" d="M80.97,2.25c5.98,11.39,12.6,24.48,12.6,34.61,0,1.94,0,3.88-.02,5.8-.16,14.26,1.47,29.95,9.52,41.72l5.6,8.19c5.22,7.63,2.76,18.11-5.33,22.61l-6.23,3.47v17.65l-17.3,12.05c-4.67,3.25-4.45,10.22.41,13.17l13.34,8.1-12.75,28.98" data-v-d53660ee></path><polygon class="eye" points="72.05 88.06 53.72 87.5 55.75 63.64 74.08 65.2 72.05 88.06" data-v-d53660ee></polygon></svg><span class="border sketch" data-v-d53660ee></span><span class="text" data-v-d53660ee>Tips</span>',
+            '<span class="background" data-v-d53660ee></span><svg class="sketch" viewBox="0 0 200 200" data-v-d53660ee><path class="line" d="M129.63,132.01c4.75,6.95,7.53,15.35,7.53,24.4s-2.72,17.29-7.39,24.19" data-v-d53660ee></path><path class="line" d="M152.16,115.23c8.24,11.63,13.08,25.84,13.08,41.18s-4.49,28.5-12.19,39.89" data-v-d53660ee></path><path class="face" d="M80.97,2.25c5.98,11.39,12.6,24.48,12.6,34.61,0,1.94,0,3.88-.02,5.8-.16,14.26,1.47,29.95,9.52,41.72l5.6,8.19c5.22,7.63,2.76,18.11-5.33,22.61l-6.23,3.47v17.65l-17.3,12.05c-4.67,3.25-4.45,10.22.41,13.17l13.34,8.1-12.75,28.98C34.76,189.65,0,149.1,0,100.44S34.84,11.13,80.97,2.25Z" data-v-d53660ee></path><path class="line" d="M80.97,2.25c5.98,11.39,12.6,24.48,12.6,34.61,0,1.94,0,3.88-.02,5.8-.16,14.26,1.47,29.95,9.52,41.72l5.6,8.19c5.22,7.63,2.76,18.11-5.33,22.61l-6.23,3.47v17.65l-17.3,12.05c-4.67,3.25-4.45,10.22.41,13.17l13.34,8.1-12.75,28.98" data-v-d53660ee></path><polygon class="eye" points="72.05 88.06 53.72 87.5 55.75 63.64 74.08 65.2 72.05 88.06" data-v-d53660ee></polygon></svg><span class="border sketch" data-v-d53660ee></span><span class="text" data-v-d53660ee>Consejos</span>',
             4
           ),
         ])
@@ -59181,7 +59181,7 @@ const Woe = rt(qoe, [
       info: (t, { id: e }) => {
         if (!t.connectedPlayers) return;
         const n = t.connectedPlayers[e];
-        return n || { id: e, avatar: 0, isVip: !1, name: "AUDIENCE" };
+        return n || { id: e, avatar: 0, isVip: !1, name: "PÚBLICO" };
       },
       player: (t, { id: e }) =>
         t.audiencePlayer ? t.audiencePlayer : t[`player:${e}`],
@@ -59374,9 +59374,9 @@ const Woe = rt(qoe, [
           try {
             if (
               (await this.$showModal("Options", {
-                text: "Are you sure you want to leave?",
+                text: "¿De verdad que quieres salir?",
                 options: [
-                  { text: "Yes", value: "yes" },
+                  { text: "Sí", value: "yes" },
                   { text: "No", value: "no" },
                 ],
               })) !== "yes"
