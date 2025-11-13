@@ -46303,22 +46303,22 @@ const QW = Cr(XW, [
           {
             url: "https://traducciones.jackbox.lol/descargas/",
             image: "/main/@connect/assets/jackboxutility.png",
-            text: "¡Nuestras traducciones!",
+            text: "¡Parcheador y launcher!",
           },
           {
             url: "https://discord.com/invite/tmwF8sEfTp",
             image: "/main/@connect/assets/discord.png",
-            text: "¡Nuestras traducciones!",
+            text: "¡Nuestro Discord!",
           },
           {
             url: "https://store.steampowered.com/search?developer=Jackbox%20Games%2C%20Inc.",
             image: "/main/@connect/assets/steam.png",
-            text: "¡Nuestras traducciones!",
+            text: "¡Compra los juegos!",
           },
           {
             url: "https://sites.google.com/view/jackbox-catala/",
             image: "/main/@connect/assets/catalan.png",
-            text: "¡Nuestras traducciones!",
+            text: "¡Página en catalán!",
           },
         ];
       },
