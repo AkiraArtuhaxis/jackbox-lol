@@ -41331,120 +41331,120 @@ const sce = (t) => {
     });
   },
   ace = {
-    ARE_YOU_SURE: "Are you sure?",
-    CHOOSE: "CHOOSE YOUR COOKIE",
-    CHALLENGE: "CHALLENGE",
-    FILL_IN_BLANK: "Fill In The Blank",
-    HURRY: "HURRY UP!",
-    KEEP_GOING: "Keep Decorating",
-    NAME: "Name Your Cookie",
-    READY: "I'm Ready!",
-    RENAME: "Rename Your Cookie",
-    SENDING: "Sending...",
-    SUBMIT_AVATAR: "Submit Avatar",
-    SUBMIT: "Submit",
-    WAIT: "Wait! What should we name it?",
+    ARE_YOU_SURE: "¿De verdad?",
+    CHOOSE: "ELIGE TU GALLETA",
+    CHALLENGE: "DESAFÍO",
+    FILL_IN_BLANK: "Completa el espacio",
+    HURRY: "¡APÚRATE!",
+    KEEP_GOING: "Seguir decorando",
+    NAME: "Nombrar tu galleta",
+    READY: "¡Listo!",
+    RENAME: "Renombrar tu galleta",
+    SENDING: "Enviando...",
+    SUBMIT_AVATAR: "Enviar avatar",
+    SUBMIT: "Enviar",
+    WAIT: "¡Espera! ¿Cómo deberíamos llamarla?",
     WARNING:
-      "Once you start naming your cookie you can't return to decorating.",
-    YOUR_COOKIE: "your cookie",
+      "Una vez que empieces a ponerle nombre a tu galleta, no podrás volver a decorarla.",
+    YOUR_COOKIE: "tu galleta",
   },
-  oce = { SELECT: "Select your favorite", THANK_YOU: "Thank you for voting" },
-  uce = { CHECK_NAME: "votes {count}", NO_VOTES: "votes {count}" },
+  oce = { SELECT: "Elige tu favorita", THANK_YOU: "Gracias por votar" },
+  uce = { CHECK_NAME: "votos {count}", NO_VOTES: "votos {count}" },
   lce = {
     SCORE_LIKE: {
       CHECK_NAME: "like {count}",
-      DESCRIPTION: 'Earn bonuses if your fellow players give you a "like"!',
-      TIP_NAME: "Likes[br][/br]Bonus",
-      TIP_SCORE: "+25 each",
+      DESCRIPTION: '¡Gana bonificaciones si tus compañeros jugadores te dan un "like"!',
+      TIP_NAME: "Bonus de[br][/br]Likes",
+      TIP_SCORE: "+25 c/u",
     },
     SCORE_KUDOS: {
-      CHECK_NAME: "kudos {count}",
-      DESCRIPTION: `If your opponent in a head-to-head gives YOU a "like," you'll get a [callout]Kudos Bonus![/callout] Artistry transcends competition!`,
-      TIP_NAME: "Kudos[br][/br]Bonus",
-      TIP_SCORE: "+50 each",
+      CHECK_NAME: "elogios {count}",
+      DESCRIPTION: `Si tu oponente en un duelo directo te da a TI un "like", ¡recibirás una [callout]Bonus de elogio[/callout]! ¡El arte trasciende la competencia!`,
+      TIP_NAME: "Bonus de[br][/br]elogio",
+      TIP_SCORE: "+50 c/u",
     },
     SCORE_GOOD_SPORT: {
-      CHECK_NAME: "good sport",
+      CHECK_NAME: "espíritu deporitvo",
       DESCRIPTION:
-        "Did you give kudos to your fellow decorator in your head-to-head? You get a [callout]Good Sport Bonus![/callout] How nice!",
-      TIP_NAME: "Good Sport Bonus",
+        "¿Le diste un buen elogio a tu compañero decorador en tu duelo? ¡Te llevas una [callout]Bonus por espíritu deportivo[/callout]! ¡Qué bien!",
+      TIP_NAME: "Bonus de espíritu deportivo",
       TIP_SCORE: "+10",
     },
     SCORE_WINNER: {
-      CHECK_NAME: "most votes",
+      CHECK_NAME: "más votos",
       DESCRIPTION:
-        "Earning the most votes in a head-to-head matchup will earn you a [callout]Most Votes Bonus[/callout]!",
-      TIP_NAME: "Most Votes Bonus",
+        "¡Obtener más votos en un enfrentamiento directo te otorgará una [callout]Bonus por más votos[/callout]!",
+      TIP_NAME: "Bonus por más votos",
       TIP_SCORE: "+150",
     },
     SCORE_SWEEP: {
-      CHECK_NAME: "u·nom·imous",
+      CHECK_NAME: "u·ñam·nime",
       DESCRIPTION:
-        "Did you sweep your head-to-head matchup? Congrats! You've earned the coveted [callout]U·NOM·INOUS Bonus[/callout]!",
-      TIP_NAME: "U·NOM·IMOUS Bonus",
+        "¿Has ganado todos tus enfrentamientos directos? ¡Felicidades! ¡Ganaste el codiciado [callout]Bonus U·ÑAM·NIME[/callout]!",
+      TIP_NAME: "Bonus U·ÑAM·NIME",
       TIP_SCORE: "+250",
     },
     SCORE_TIME: {
-      CHECK_NAME: "speedbaker",
+      CHECK_NAME: "velocipan",
       DESCRIPTION:
-        "Get bonuses for finishing your cookie early! Finish in under 90 seconds? You're a Speedbaker! Finish in under 60 seconds? You're a Super-Speedbaker, with a 2x bonus!",
-      TIP_NAME: "Speedbaker[br][/br]Bonus",
+        "¡Consigue bonificaciones por terminar tu galleta antes! ¿La terminaste en menos de 90 segundos? ¡Tienes VelociPan! ¿La terminaste en menos de 60 segundos? ¡Tienes Súper VelociPan, con una boficación del doble!",
+      TIP_NAME: "Bonus por[br][/br]velocipan",
       TIP_SCORE: "+25",
     },
     SCORE_DOUBLE_TIME: {
-      CHECK_NAME: "speedbaker 2x",
+      CHECK_NAME: "velocipan x2",
       DESCRIPTION: "",
       TIP_NAME: "",
       TIP_SCORE: "",
     },
     SCORE_DUO: {
-      CHECK_NAME: "baker's duo",
+      CHECK_NAME: "dúo del panadero",
       DESCRIPTION:
-        "Stuck in a 3-cookie matchup? You get a [callout]Baker's Duo Bonus[/callout] for the hassle! <3",
-      TIP_NAME: "Baker's Duo Bonus",
+        "¿Estás en un enfrentamiento de 3 galletas? ¡Te llevas un [callout]Bonus dúo del panadero[/callout] por las molestias! <3",
+      TIP_NAME: "Bonus dúo del panadero",
       TIP_SCORE: "+50",
     },
     SCORE_AUDIENCE: {
-      CHECK_NAME: "audience",
+      CHECK_NAME: "público",
       DESCRIPTION:
-        "If your cookie is the most popular with the audience, you'll be awarded the [callout]Audience Bonus[/callout].",
-      TIP_NAME: "Audience[br][/br]Bonus",
+        "Si tu galleta es la más popular del público, recibirás el [callout]Bonus del público[/callout].",
+      TIP_NAME: "Bonus del[br][/br]público",
       TIP_SCORE: "+100",
     },
     SCORE_HARD_SHAPE: {
-      CHECK_NAME: "challenge",
+      CHECK_NAME: "desafío",
       DESCRIPTION:
-        'Use a cookie shaped marked as "Challenge" and get a +50 bonus!',
-      TIP_NAME: "Challenge Shape Bonus",
+        '¡Usa una galleta con forma marcada como "Desafío" y obtén un bonus de +50!',
+      TIP_NAME: "Bonus de forma de desafío",
       TIP_SCORE: "+50",
     },
     SCORE_TODAY: {
-      CHECK_NAME: "today",
+      CHECK_NAME: "hoy",
       DESCRIPTION: "",
-      TIP_NAME: "Today[br][/br]Bonus",
+      TIP_NAME: "Bonus de[br][/br]hoy",
       TIP_SCORE: "+50",
     },
-    SCORE_EGG: { CHECK_NAME: "other stuff" },
-    SCORE_UH_OH_STINKY: { CHECK_NAME: " Uh Oh, Stinky!" },
-    SCORE_POOR_BABY: { CHECK_NAME: " Poor Baby!" },
-    SCORE_YOU_LOSE: { CHECK_NAME: " You Lose!" },
-    SCORE_THANK: { CHECK_NAME: " thank" },
-    SCORE_HAHA_YEAH: { CHECK_NAME: " haha.. yeah.. wow.. " },
+    SCORE_EGG: { CHECK_NAME: "otras cosas" },
+    SCORE_UH_OH_STINKY: { CHECK_NAME: " Oh oh, ¡Stinky!" },
+    SCORE_POOR_BABY: { CHECK_NAME: " ¡Pobre bebé!" },
+    SCORE_YOU_LOSE: { CHECK_NAME: " ¡Perdiste!" },
+    SCORE_THANK: { CHECK_NAME: " grax" },
+    SCORE_HAHA_YEAH: { CHECK_NAME: " jaja.. sí.. wow.. " },
   },
   cce = {
-    BUY: "BUY A MUG",
-    HEADER: "TODAY'S COOKIES",
+    BUY: "COMPRA UNA TAZA",
+    HEADER: "GALLETAS DE HOY",
     INFO_0:
-      "Design position in preview image may differ slightly from game. Purchased item will more closely reflect in-game garment. Lines may be hard to see if their color and the item's color are similar.",
+      "La posición del diseño en la imagen de vista previa puede diferir ligeramente del juego. El artículo adquirido se asemejará más a la prenda del juego. Las líneas pueden ser difíciles de apreciar si su color es similar al del artículo.",
     INFO_1:
-      "Offensive material will NOT be printed and the order will be canceled and refunded.",
+      "El material ofensivo NO se imprimirá y el pedido será cancelado y reembolsado.",
     INFO_2:
-      "Please review our [link]REFUND POLICY[/link]. You are responsible for inputting the correct shipping information. Items shipped to an incorrect address cannot be refunded.",
-    ITEM_NAME: "Cookie Haus Custom Mug",
-    QUANTITY: "Quantity:",
-    SHARE_TEXT: "Check out this cookie I decorated in Cookie Haus.",
-    SHOP_ACTION: "Add to cart",
-    SHOP_TITLE: "Add item to cart?",
+      "Por favor, revisa nuestra [link]POLÍTICA DE REEMBOLSO[/link]. Es tu responsabilidad proporcionar la información de envío correcta. Los artículos enviados a una dirección incorrecta no se pueden reembolsar.",
+    ITEM_NAME: "Taza personalizada de Cookie Haus",
+    QUANTITY: "Cantidad:",
+    SHARE_TEXT: "Mira esta galleta que decoré en Cookie Haus.",
+    SHOP_ACTION: "Añadir al carrito",
+    SHOP_TITLE: "¿Añadir artículo al carrito?",
   },
   fce = { DECORATE: ace, VOTING: oce, VOTES: uce, BONUSES: lce, GALLERY: cce },
   hce = { en: fce },
@@ -41481,33 +41481,33 @@ const sce = (t) => {
   Nce = "/main/pp11/cookies/assets/CXmoLSPM.png",
   Fce = "/main/pp11/cookies/assets/DBjSkaR6.png",
   Gce = {
-    Weeabear: "Kyle Otakuma",
-    NuggetKid: "Chicken Nugget Kid",
-    CowFriend: "Heifer Locklear",
-    KoalaKaren: "Mary Supial",
-    AlienKid: "Blogorf The Alien (aka. Jayson)",
-    Gingerbread: "Gingerbread Ma'am",
-    GothGirl: "Natalie Feratu",
-    UGCFriend: "Chaz's Phone",
-    Zookeeper: "Chip Brisbane",
-    Capybara: "Carrie Bara",
-    SquidMan: "Trent A. Culls",
-    HippyGal: "Holista Hemp",
-    MushroomMan: "Fun Augustus",
-    Crab: "Clawdia Fintour",
-    Robotter: "R.O.B.O.T.T.E.R",
-    KangarooFam: "Baby Joseph (NOT Joey!)",
-    Inspector: "Health Inspector",
-    NervousNellie: "Nervous Nellie",
-    Doctor: "Dr. Benson Bawdypartz",
-    TrenchCoat: "Dilly, Dally, & Devin",
-    Sheriff: "Sheriff Samuel Cooks",
-    Bull: "Bill Bullman",
+    Weeabear: "Carmelo Taku",
+    NuggetKid: "El niño nugget de pollo",
+    CowFriend: "Vaquita Salazar",
+    KoalaKaren: "Karen Koala",
+    AlienKid: "Niño Alienígena",
+    Gingerbread: "Persona de jengibre",
+    GothGirl: "Nati Feratu",
+    UGCFriend: "Teléfono de Chaz",
+    Zookeeper: "Chip Sídney",
+    Capybara: "Cari Bara",
+    SquidMan: "Trent Á. Culós",
+    HippyGal: "Holista Hachís",
+    MushroomMan: "Seth Ongos",
+    Crab: "Cangrela Lagerfeld",
+    Robotter: "N.U.T.R.I.A.B.O.T",
+    KangarooFam: "No Joey, sino Joe",
+    Inspector: "Inspector sanitario",
+    NervousNellie: "Nelly Nerviosa",
+    Doctor: "Doctor Xtremidadz",
+    TrenchCoat: "Lalo, Lola y Lolo",
+    Sheriff: "Alguacil Cocinas",
+    Bull: "Teodoro Santoro",
     Gene: "Gene",
-    DonutMan: "D.D. Donut",
-    Pixi: "Mrs. Pixi",
-    Frog: "Arthur Pod",
-    Unicorn: "Whimsica Taylor Thomas",
+    DonutMan: "D.D. Dona",
+    Pixi: "Srta. Pixi",
+    Frog: "Arthur Vaina",
+    Unicorn: "Caprichosa Taylor Thomas",
   },
   Kce = or({
     components: { RenderedImage: Pne },
@@ -87119,20 +87119,20 @@ const z0e = er(w0e, [
             key: "color",
             label: this.options.cookieTypes.includes("nuggets")
               ? "Condiments"
-              : "Colors",
+              : "Colores",
             action: "icing",
             options: this.options.colors,
           },
-          { key: "weight", label: "Tips", options: this.options.weights },
+          { key: "weight", label: "Consejos", options: this.options.weights },
           {
             key: "sprinkleType",
-            label: "Sprinkles",
+            label: "Chispas",
             action: "sprinkles",
             options: this.options.sprinkleTypes,
           },
           {
             key: "cookieType",
-            label: "Cookie",
+            label: "Galleta",
             options: this.options.cookieTypes,
           },
         ],
@@ -87276,7 +87276,7 @@ function Q0e(t, e, r, i, s, a) {
             onClick:
               e[0] || (e[0] = (...o) => t.onUndoClick && t.onUndoClick(...o)),
           },
-          e[3] || (e[3] = [Se("span", null, "UNDO", -1)]),
+          e[3] || (e[3] = [Se("span", null, "DESHACER", -1)]),
           8,
           Y0e
         ),
@@ -87689,7 +87689,7 @@ function d_e(t, e, r, i, s, a) {
               t.canvas
                 ? (Pe(),
                   Ge("div", a_e, [
-                    e[9] || (e[9] = Se("span", null, "ROTATE", -1)),
+                    e[9] || (e[9] = Se("span", null, "ROTAR", -1)),
                     gr(
                       Se(
                         "input",
@@ -88220,7 +88220,7 @@ const X_e = er(H_e, [
         };
       },
       note() {
-        return "Thank you!";
+        return "¡Gracias!";
       },
       total() {
         const t = this.votes.score ?? 0,
@@ -88282,10 +88282,10 @@ function gbe(t, e, r, i, s, a) {
         Se("div", Z_e, [
           Se("div", Q_e, [
             e[3] ||
-              (e[3] = Se("img", { src: W_e, alt: "Your Score" }, null, -1)),
+              (e[3] = Se("img", { src: W_e, alt: "Tu puntaje" }, null, -1)),
             Se("div", J_e, [
               Se("div", ebe, [
-                e[0] || (e[0] = Se("p", { class: "label" }, "DATE", -1)),
+                e[0] || (e[0] = Se("p", { class: "label" }, "FECHA", -1)),
                 Se("p", tbe, xt(t.day), 1),
               ]),
               e[2] ||
@@ -88293,13 +88293,13 @@ function gbe(t, e, r, i, s, a) {
                   "div",
                   { class: "server" },
                   [
-                    Se("p", { class: "label" }, "SERVER"),
+                    Se("p", { class: "label" }, "SERVIDOR"),
                     Se("p", { class: "writing" }, "Moonique"),
                   ],
                   -1
                 )),
               Se("div", rbe, [
-                e[1] || (e[1] = Se("p", { class: "label" }, "CHECK", -1)),
+                e[1] || (e[1] = Se("p", { class: "label" }, "CUENTA", -1)),
                 Se("p", nbe, xt(t.checkNumber), 1),
               ]),
             ]),
@@ -88307,7 +88307,7 @@ function gbe(t, e, r, i, s, a) {
           Se("div", ibe, [
             e[4] ||
               (e[4] = Xd(
-                '<div class="head" data-v-8b69716a><div class="type" data-v-8b69716a></div><div class="bonus" data-v-8b69716a><p class="label" data-v-8b69716a>BONUS</p></div><div class="points" data-v-8b69716a><p class="label" data-v-8b69716a>POINTS</p></div></div>',
+                '<div class="head" data-v-8b69716a><div class="type" data-v-8b69716a></div><div class="bonus" data-v-8b69716a><p class="label" data-v-8b69716a>BONUS</p></div><div class="points" data-v-8b69716a><p class="label" data-v-8b69716a>PUNTOS</p></div></div>',
                 1
               )),
             (Pe(!0),
@@ -88450,7 +88450,7 @@ function Rbe(t, e, r, i, s, a) {
           ? (Pe(),
             Ge("div", vbe, [
               e[2] ||
-                (e[2] = Se("p", { class: "head" }, "Tips on Bonuses", -1)),
+                (e[2] = Se("p", { class: "head" }, "Consejos sobre los bonus", -1)),
               Se("div", Ebe, [
                 Se("span", { class: kt(["badge", t.badgeClass]) }, null, 2),
                 gr(Se("p", ybe, null, 512), [

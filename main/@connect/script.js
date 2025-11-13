@@ -46291,8 +46291,33 @@ const QW = Cr(XW, [
       showDefault() {
         this.banners = [
           {
+            url: "https://traducciones.jackbox.lol/informacion/the-jackbox-party-pack-11",
+            image: "/main/@connect/assets/Pack11Promo.png",
+            text: "¡Pack 11 traducido!",
+          },
+          {
             url: "https://traducciones.jackbox.lol/",
             image: "/main/@connect/assets/sitioweb.png",
+            text: "¡Nuestras traducciones!",
+          },
+          {
+            url: "https://traducciones.jackbox.lol/descargas/",
+            image: "/main/@connect/assets/jackboxutility.png",
+            text: "¡Nuestras traducciones!",
+          },
+          {
+            url: "https://discord.com/invite/tmwF8sEfTp",
+            image: "/main/@connect/assets/discord.png",
+            text: "¡Nuestras traducciones!",
+          },
+          {
+            url: "https://store.steampowered.com/search?developer=Jackbox%20Games%2C%20Inc.",
+            image: "/main/@connect/assets/steam.png",
+            text: "¡Nuestras traducciones!",
+          },
+          {
+            url: "https://sites.google.com/view/jackbox-catala/",
+            image: "/main/@connect/assets/catalan.png",
             text: "¡Nuestras traducciones!",
           },
         ];
@@ -46876,10 +46901,6 @@ function GX(r, e, n, i, s, o) {
           ],
           32
         ),
-        Be("li", DX, [
-          ar(Be("p", null, null, 512), [[p, "NEWSLETTER.JOIN"]]),
-          $t(t),
-        ]),
         $t(u),
         r.shouldShowPreferredBranch ? (He(), Ui(f, { key: 2 })) : It("", !0),
         Be("li", BX, [
