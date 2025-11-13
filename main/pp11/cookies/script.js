@@ -87276,7 +87276,7 @@ function Q0e(t, e, r, i, s, a) {
             onClick:
               e[0] || (e[0] = (...o) => t.onUndoClick && t.onUndoClick(...o)),
           },
-          e[3] || (e[3] = [Se("span", null, "DESH.", -1)]),
+          e[2] || (e[2] = [Se("span", null, "DESHACER", -1)]),
           8,
           Y0e
         ),
