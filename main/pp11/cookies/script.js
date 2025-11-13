@@ -41358,16 +41358,16 @@ const sce = (t) => {
       TIP_SCORE: "+25 c/u",
     },
     SCORE_KUDOS: {
-      CHECK_NAME: "elogios {count}",
-      DESCRIPTION: `Si tu oponente en un duelo directo te da a TI un "like", ¡recibirás un [callout]Bonus de elogio[/callout]! ¡El arte trasciende la competencia!`,
-      TIP_NAME: "Bonus de[br][/br]elogio",
+      CHECK_NAME: "felicitaciones {count}",
+      DESCRIPTION: `Si tu oponente en un duelo directo te da a TI un "like", ¡recibirás un [callout]Bonus de felicitación[/callout]! ¡El arte trasciende la competencia!`,
+      TIP_NAME: "Bonus de[br][/br]felicitación",
       TIP_SCORE: "+50 c/u",
     },
     SCORE_GOOD_SPORT: {
-      CHECK_NAME: "espíritu deporitvo",
+      CHECK_NAME: "buen compañero",
       DESCRIPTION:
-        "¿Le diste un buen elogio a tu compañero decorador en tu duelo? ¡Te llevas un [callout]Bonus por espíritu deportivo[/callout]! ¡Qué bien!",
-      TIP_NAME: "Bonus de espíritu deportivo",
+        "¿Le diste un buen elogio a tu compañero decorador en tu duelo? ¡Te llevas un [callout]Bonus por buen compañero[/callout]! ¡Qué bien!",
+      TIP_NAME: "Bonus de buen compañero",
       TIP_SCORE: "+10",
     },
     SCORE_WINNER: {
@@ -41385,14 +41385,14 @@ const sce = (t) => {
       TIP_SCORE: "+250",
     },
     SCORE_TIME: {
-      CHECK_NAME: "velocipan",
+      CHECK_NAME: "horneado rápido",
       DESCRIPTION:
-        "¡Consigue bonificaciones por terminar tu galleta antes! ¿La terminaste en menos de 90 segundos? ¡Tienes VelociPan! ¿La terminaste en menos de 60 segundos? ¡Tienes Súper VelociPan, con una boficación del doble!",
-      TIP_NAME: "Bonus por[br][/br]velocipan",
+        "¡Consigue bonificaciones por terminar tu galleta antes! ¿La terminaste en menos de 90 segundos? ¡Tienes Horneado rápido! ¿La terminaste en menos de 60 segundos? ¡Tienes horneado rapidísimo, con una boficación del doble!",
+      TIP_NAME: "Bonus por[br][/br]horneado rápido",
       TIP_SCORE: "+25",
     },
     SCORE_DOUBLE_TIME: {
-      CHECK_NAME: "velocipan x2",
+      CHECK_NAME: "horneado rápido x2",
       DESCRIPTION: "",
       TIP_NAME: "",
       TIP_SCORE: "",
@@ -41425,10 +41425,10 @@ const sce = (t) => {
       TIP_SCORE: "+50",
     },
     SCORE_EGG: { CHECK_NAME: "otras cosas" },
-    SCORE_UH_OH_STINKY: { CHECK_NAME: " Oh oh, ¡Stinky!" },
+    SCORE_UH_OH_STINKY: { CHECK_NAME: " Oh oh, ¡stinky!" },
     SCORE_POOR_BABY: { CHECK_NAME: " ¡Pobre bebé!" },
     SCORE_YOU_LOSE: { CHECK_NAME: " ¡Perdiste!" },
-    SCORE_THANK: { CHECK_NAME: " grax" },
+    SCORE_THANK: { CHECK_NAME: " gracias a" },
     SCORE_HAHA_YEAH: { CHECK_NAME: " jaja.. sí.. wow.. " },
   },
   cce = {
@@ -87276,7 +87276,7 @@ function Q0e(t, e, r, i, s, a) {
             onClick:
               e[0] || (e[0] = (...o) => t.onUndoClick && t.onUndoClick(...o)),
           },
-          e[2] || (e[2] = [Se("span", null, "DESHACER", -1)]),
+          e[3] || (e[3] = [Se("span", null, "DESHACER", -1)]),
           8,
           Y0e
         ),
