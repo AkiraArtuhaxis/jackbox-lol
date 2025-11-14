@@ -44771,7 +44771,7 @@ de tu lista de partidas anteriores.`,
   },
   I7 = {
     CALL_TO_ACTION: { SHOP: "VER PARTIDA Y TIENDA", VIEW: "VER ESTA PARTIDA" },
-    NEW: "NUEVA",
+    NEW: "NUEVO",
     PLAYED_ON: "JUGADO EL",
     REMOVE: {
       CONFIRM: "¿De verdad?",
