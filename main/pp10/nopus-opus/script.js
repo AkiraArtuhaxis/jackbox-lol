@@ -24547,7 +24547,7 @@ const Hf = t => (Gr("data-v-a7272d53"), t = t(), Vr(), t),
     jpe = Hf(() => U("a", {
         class: "logo",
         href: "/",
-        "aria-label": "Jackbox Games Logo"
+        "aria-label": "Logo de Jackbox Games"
     }, null, -1)),
     Wpe = {
         class: "content"

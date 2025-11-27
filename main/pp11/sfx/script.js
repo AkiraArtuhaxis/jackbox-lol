@@ -37152,12 +37152,12 @@ function tH(t, e, n, i, s, a) {
         e[5] ||
           (e[5] = q(
             "a",
-            { class: "logo", href: "/", "aria-label": "Jackbox Games Logo" },
+            { class: "logo", href: "/", "aria-label": "Logo de Jackbox Games" },
             null,
             -1
           )),
         q("div", QX, [
-          e[1] || (e[1] = q("h1", null, "You have encountered an error", -1)),
+          e[1] || (e[1] = q("h1", null, "Se ha producido un error", -1)),
           e[2] ||
             (e[2] = q(
               "p",
@@ -56157,16 +56157,16 @@ function cie(t, e, n, i, s, a) {
       [
         q("div", tie, [
           t.game.data.status === "waiting"
-            ? (Y(), ne("span", rie, "Get Ready"))
+            ? (Y(), ne("span", rie, "Prepárate"))
             : Ve("", !0),
           t.game.data.status === "active"
             ? (Y(), ne("span", nie, ut(t.game.score), 1))
             : Ve("", !0),
           t.game.data.status === "active"
-            ? (Y(), ne("span", iie, "GO!"))
+            ? (Y(), ne("span", iie, "¡YA!"))
             : Ve("", !0),
           t.game.data.status === "finished"
-            ? (Y(), ne("span", sie, "Done!"))
+            ? (Y(), ne("span", sie, "¡Hecho!"))
             : Ve("", !0),
         ]),
         q("div", aie, [
@@ -56713,13 +56713,13 @@ function Die(t, e, n, i, s, a) {
         q("div", Tie, [
           q("div", bie, [
             t.game.data.status === "waiting"
-              ? (Y(), ne("span", Rie, "Get Ready"))
+              ? (Y(), ne("span", Rie, "Prepárate"))
               : Ve("", !0),
             t.game.data.status === "active"
-              ? (Y(), ne("span", xie, "GO!"))
+              ? (Y(), ne("span", xie, "¡YA!"))
               : Ve("", !0),
             t.game.data.status === "finished"
-              ? (Y(), ne("span", Sie, "Done!"))
+              ? (Y(), ne("span", Sie, "¡Hecho!"))
               : Ve("", !0),
           ]),
           q(
@@ -58051,7 +58051,7 @@ function Lae(t, e, n, i, s, a) {
               ? (Y(),
                 Yt(
                   c,
-                  { key: 0, text: "Retry", onClick: t.onRetryClick },
+                  { key: 0, text: "Reintentar", onClick: t.onRetryClick },
                   null,
                   8,
                   ["onClick"]

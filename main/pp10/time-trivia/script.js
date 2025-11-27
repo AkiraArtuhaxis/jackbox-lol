@@ -24565,7 +24565,7 @@ ${t}`
         one = lc(() => G("a", {
             class: "logo",
             href: "/",
-            "aria-label": "Jackbox Games Logo"
+            "aria-label": "Logo de Jackbox Games"
         }, null, -1)),
         cne = {
             class: "content"

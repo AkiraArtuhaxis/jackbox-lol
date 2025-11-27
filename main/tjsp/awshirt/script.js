@@ -28785,7 +28785,7 @@ ${e}`
     Rse = bl(() => Y("a", {
         class: "logo",
         href: "/",
-        "aria-label": "Jackbox Games Logo"
+        "aria-label": "Logo de Jackbox Games"
     }, null, -1)),
     _se = {
         class: "content"

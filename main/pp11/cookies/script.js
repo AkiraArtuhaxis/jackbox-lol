@@ -35250,12 +35250,12 @@ function Dse(t, e, r, i, s, a) {
         e[5] ||
           (e[5] = Se(
             "a",
-            { class: "logo", href: "/", "aria-label": "Jackbox Games Logo" },
+            { class: "logo", href: "/", "aria-label": "Logo de Jackbox Games" },
             null,
             -1
           )),
         Se("div", Pse, [
-          e[1] || (e[1] = Se("h1", null, "You have encountered an error", -1)),
+          e[1] || (e[1] = Se("h1", null, "Se ha producido un error", -1)),
           e[2] ||
             (e[2] = Se(
               "p",

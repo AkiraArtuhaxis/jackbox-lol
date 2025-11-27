@@ -24161,7 +24161,7 @@ ${t}`
         rte = oc(() => x("a", {
             class: "logo",
             href: "/",
-            "aria-label": "Jackbox Games Logo"
+            "aria-label": "Logo de Jackbox Games"
         }, null, -1)),
         nte = {
             class: "content"

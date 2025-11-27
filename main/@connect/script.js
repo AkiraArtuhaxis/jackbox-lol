@@ -43451,7 +43451,7 @@ function x6(r, e, n, i, s, o) {
         e[5] ||
           (e[5] = Be(
             "a",
-            { class: "logo", href: "/", "aria-label": "Jackbox Games Logo" },
+            { class: "logo", href: "/", "aria-label": "Logo de Jackbox Games" },
             null,
             -1
           )),

@@ -23027,7 +23027,7 @@ ${t}`
         Jne = uc(() => V("a", {
             class: "logo",
             href: "/",
-            "aria-label": "Jackbox Games Logo"
+            "aria-label": "Logo de Jackbox Games"
         }, null, -1)),
         Zne = {
             class: "content"

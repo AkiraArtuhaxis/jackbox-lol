@@ -24361,7 +24361,7 @@ ${e}`
         $oe = g1(() => A("a", {
             class: "logo",
             href: "/",
-            "aria-label": "Jackbox Games Logo"
+            "aria-label": "Logo de Jackbox Games"
         }, null, -1)),
         Ooe = {
             class: "content"
