@@ -57808,7 +57808,7 @@ function pae(t, e, n, i, s, a) {
           q("text", cae, [q("textPath", fae, ut(t.message), 1)]),
         ])),
         q("span", null, ut(t.buttonText), 1),
-        t.status === "error" ? (Y(), ne("span", hae, "Try Again")) : Ve("", !0),
+        t.status === "error" ? (Y(), ne("span", hae, "Inténtalo de nuevo")) : Ve("", !0),
       ],
       2
     )
