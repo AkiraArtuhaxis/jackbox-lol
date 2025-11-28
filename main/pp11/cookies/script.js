@@ -88076,10 +88076,10 @@ const N_e = er(I_e, [
         return !(
           !this.player.hasAllAvatars &&
           (await this.$showModal("Options", {
-            text: "Start before everyone's avatar cookies are ready?",
+            text: "¿Empezar antes de que las galletas avatar de todos estén listas?",
             options: [
-              { text: "START ANYWAY", value: "confirm" },
-              { text: "I'LL WAIT", value: "cancel" },
+              { text: "EMPEZAR DE TODOS MODOS", value: "confirm" },
+              { text: "ESPERARÉ", value: "cancel" },
             ],
           })) !== "confirm"
         );
