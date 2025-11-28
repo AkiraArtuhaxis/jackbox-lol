@@ -22596,7 +22596,7 @@ class Ia {
   }
   getUrl(e, n) {
     return n.galleryId
-      ? `/gallery/${n.galleryId}/${e.artifactId}`
+      ? `https://jackbox.tv/gallery/${n.galleryId}/${e.artifactId}`
       : e.isTest
       ? `http://games-test.jackbox.tv/artifact/${e.categoryId}/${e.artifactId}/`
       : `https://games.jackbox.tv/artifact/${e.categoryId}/${e.artifactId}/`;
