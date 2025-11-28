@@ -41378,10 +41378,10 @@ const sce = (t) => {
       TIP_SCORE: "+150",
     },
     SCORE_SWEEP: {
-      CHECK_NAME: "u·ñam·nime",
+      CHECK_NAME: "u·ñám·nime",
       DESCRIPTION:
-        "¿Has ganado todos tus enfrentamientos directos? ¡Felicidades! ¡Ganaste el codiciado [callout]Bonus U·ÑAM·NIME[/callout]!",
-      TIP_NAME: "Bonus U·ÑAM·NIME",
+        "¿Has ganado todos tus enfrentamientos directos? ¡Felicidades! ¡Ganaste el codiciado [callout]Bonus U·ÑÁM·NIME[/callout]!",
+      TIP_NAME: "Bonus U·ÑÁM·NIME",
       TIP_SCORE: "+250",
     },
     SCORE_TIME: {
@@ -41419,9 +41419,9 @@ const sce = (t) => {
       TIP_SCORE: "+50",
     },
     SCORE_TODAY: {
-      CHECK_NAME: "hoy",
+      CHECK_NAME: "semana",
       DESCRIPTION: "",
-      TIP_NAME: "Bonus de[br][/br]hoy",
+      TIP_NAME: "Bonus [br][/br]semanal",
       TIP_SCORE: "+50",
     },
     SCORE_EGG: { CHECK_NAME: "otras cosas" },
