@@ -21688,7 +21688,7 @@ const xJ = {
     BUTTON_GO_TO_GAME: "Ir a la partida",
     BUTTON_GO_TO_JACKBOX: "Volver a jackbox.lol",
     BUTTON_PLAY_AGAIN: "Jugar de nuevo",
-    BUTTON_SAME_PLAYERS: "Msmos jugadores",
+    BUTTON_SAME_PLAYERS: "Mismos jugadores",
     BUTTON_NEW_PLAYERS: "Nuevos jugadores",
     BUTTON_CHANGE_GAME: "Cambiar de juego",
     BUTTON_NEXT_GAME: "Jugar a {gameName}",

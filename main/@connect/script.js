@@ -44750,7 +44750,7 @@ de tu lista de partidas anteriores.`,
     ROOM_CODE: "CÓDIGO DE SALA",
     ROOM_CODE_PLACEHOLDER: "INGRESA EL CÓDIGO DE 4 CARACTERES",
   },
-  C7 = "Enlace a la página PRINCIPAL de Jackbox Games",
+  C7 = "Enlace a la página principal de Jackbox Games",
   w7 = {
     APPEARANCE: "APARIENCIA",
     DARK: "oscura",
