@@ -41419,7 +41419,7 @@ const sce = (t) => {
       TIP_SCORE: "+50",
     },
     SCORE_TODAY: {
-      CHECK_NAME: "semana",
+      CHECK_NAME: "bonus semanal",
       DESCRIPTION: "",
       TIP_NAME: "Bonus [br][/br]semanal",
       TIP_SCORE: "+50",
