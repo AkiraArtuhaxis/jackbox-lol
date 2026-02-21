@@ -3752,7 +3752,7 @@ function G0() {
 var X0 = G0();
 const cf = yc(X0);
 function pf(...r) {
-  (window.dataLayer = window.dataLayer || []), window.dataLayer.push(r);
+  (window.dataLayer = window.dataLayer || []), window.dataLayer.push(arguments);
 }
 class j0 {
   constructor() {
@@ -4385,6 +4385,7 @@ const $0 = [
     isPublic: !0,
     directory: "pp11/trivia-rpg",
     features: ["kicking"],
+    categoryId: "TriviaRPGGame",
     galleryId: "legends-of-trivia",
   },
   {
@@ -20212,7 +20213,7 @@ let Iy = class {
     );
   }
   getS3Url(t, n) {
-    return `${window.location.origin}/${n}/${t}`;
+    return `./${n}/${t}`;
   }
   async loadHMRBundle(t) {
     const n = t.file;
@@ -20698,449 +20699,437 @@ const Fy = "production",
   Hy = 1,
   Wy = {
     branch: "main",
-    sha: "9d06c54dcd213cab18f55c46c7ad2203ab0b9af2",
-    lastUpdated: 1765468438984,
-    version: "5.1269.662",
+    sha: "a8d8ab83c919176568964ebf40d1381007e91ad6",
+    lastUpdated: 1761342901471,
+    version: "5.1244.654",
     type: "production",
   },
   zy = {
     main: {
-      sha: "9d06c54dcd213cab18f55c46c7ad2203ab0b9af2",
-      lastUpdated: 1765468438984,
-      version: "5.1269.662",
+      sha: "a8d8ab83c919176568964ebf40d1381007e91ad6",
+      lastUpdated: 1761342901471,
+      version: "5.1244.654",
       type: "production",
       bundles: {
         "@connect": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/@connect",
-          version: "5.1269.662",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/@connect",
+            version: "5.1233.654.3"
         },
         "the-wheel": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp8/the-wheel",
-          version: "5.94.0",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp8/the-wheel",
+            version: "5.12.0"
         },
         "drawful-animate": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp8/drawful-animate",
-          version: "5.229.113",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp8/drawful-animate",
+            version: "5.28.0"
         },
         "@moderator": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/@moderator",
-          version: "5.1212.653",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/@moderator",
+            version: "5.1212.653.1"
         },
         "awshirt-tjsp": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/tjsp/awshirt",
-          version: "5.1244.654",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/tjsp/awshirt",
+            version: "5.20.0"
         },
         "ecast-test-client": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/internal/ecast-test-client",
-          version: "5.0.0",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/internal/ecast-test-client",
+            version: "5.0.0"
         },
         drawful: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp1/drawful",
-          version: "5.744.354",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp1/drawful",
+            version: "5.0.0"
         },
         fibbage: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp1/fibbage",
-          version: "5.744.354",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp1/fibbage",
+            version: "5.0.0"
         },
         lieswatter: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp1/lieswatter",
-          version: "5.0.0",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp1/lieswatter",
+            version: "5.0.0"
         },
         wordspud: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp1/wordspud",
-          version: "5.744.354",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp1/wordspud",
+            version: "5.0.0"
         },
         ydkj2015: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp1/ydkj2015",
-          version: "5.0.0",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp1/ydkj2015",
+            version: "5.0.0"
         },
         auction: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp2/auction",
-          version: "5.744.354",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp2/auction",
+            version: "5.11.0"
         },
         bombintern: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp2/bombintern",
-          version: "5.744.354",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp2/bombintern",
+            version: "5.10.0"
         },
         earwax: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp2/earwax",
-          version: "5.744.354",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp2/earwax",
+            version: "5.23.0"
         },
         fibbage2: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp2/fibbage2",
-          version: "5.744.354",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp2/fibbage2",
+            version: "5.3.0"
         },
         quiplash: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp2/quiplash",
-          version: "5.744.354",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp2/quiplash",
+            version: "5.10.0"
         },
         awshirt: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp3/awshirt",
-          version: "5.817.418",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp3/awshirt",
+            version: "5.10.0"
         },
         fakinit: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp3/fakinit",
-          version: "5.744.354",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp3/fakinit",
+            version: "5.3.0"
         },
         pollposition: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp3/pollposition",
-          version: "5.744.354",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp3/pollposition",
+            version: "5.3.0"
         },
         quiplash2: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp3/quiplash2",
-          version: "5.744.354",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp3/quiplash2",
+            version: "5.10.0"
         },
         triviadeath: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp3/triviadeath",
-          version: "5.744.354",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp3/triviadeath",
+            version: "5.10.0"
         },
         bracketeering: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp4/bracketeering",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp4/bracketeering",
+            version: "5.3.0"
         },
         fibbage3: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp4/fibbage3",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp4/fibbage3",
+            version: "5.3.0"
         },
         monstermingle: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp4/monstermingle",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp4/monstermingle",
+            version: "5.3.0"
         },
         overdrawn: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp4/overdrawn",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp4/overdrawn",
+            version: "5.3.0"
         },
         survivetheinternet: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp4/survivetheinternet",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp4/survivetheinternet",
+            version: "5.3.0"
         },
         patentlystupid: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp5/patentlystupid",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp5/patentlystupid",
+            version: "5.3.0"
         },
         rapbattle: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp5/rapbattle",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp5/rapbattle",
+            version: "5.3.0"
         },
         slingshoot: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp5/slingshoot",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp5/slingshoot",
+            version: "5.3.0"
         },
         splittheroom: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp5/splittheroom",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp5/splittheroom",
+            version: "5.3.0"
         },
         ydkj2018: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp5/ydkj2018",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp5/ydkj2018",
+            version: "5.3.0"
         },
         jokeboat: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp6/jokeboat",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp6/jokeboat",
+            version: "5.3.0"
         },
         pushthebutton: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp6/pushthebutton",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp6/pushthebutton",
+            version: "5.0.0"
         },
         ridictionary: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp6/ridictionary",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp6/ridictionary",
+            version: "5.3.0"
         },
         rolemodels: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp6/rolemodels",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp6/rolemodels",
+            version: "5.25.0"
         },
         triviadeath2: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp6/triviadeath2",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp6/triviadeath2",
+            version: "5.3.0"
         },
         "blanky-blank": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp7/blanky-blank",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp7/blanky-blank",
+            version: "5.563.277"
         },
         everyday: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp7/everyday",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp7/everyday",
+            version: "5.3.0"
         },
         "jackbox-talks": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp7/jackboxtalks",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp7/jackboxtalks",
+            version: "5.25.0"
         },
         quiplash3: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp7/quiplash3",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp7/quiplash3",
+            version: "5.18.0"
         },
         worldchamps: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp7/worldchamps",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp7/worldchamps",
+            version: "5.144.39"
         },
         "acquisitions-inc": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/standalone/acquisitions-inc",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/standalone/acquisitions-inc",
+            version: "5.3.0"
         },
         drawful2international: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/standalone/drawful2-international",
-          version: "5.744.354",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/standalone/drawful2-international",
+            version: "5.3.0"
         },
         drawful2: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/standalone/drawful2",
-          version: "5.824.421",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/standalone/drawful2",
+            version: "5.10.0"
         },
         "guesspionage-crowdplay": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/standalone/guesspionage-crowdplay",
-          version: "5.0.0",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/standalone/guesspionage-crowdplay",
+            version: "5.0.0"
         },
         "quiplash2-international": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/standalone/quiplash2-international",
-          version: "5.3.0",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/standalone/quiplash2-international",
+            version: "5.3.0"
         },
         "survey-bomb": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp8/survey-bomb",
-          version: "5.94.0",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp8/survey-bomb",
+            version: "5.67.0"
         },
         "triviadeath2-tjsp": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/tjsp/triviadeath2",
-          version: "5.436.189",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/tjsp/triviadeath2",
+            version: "5.30.0"
         },
         "murder-detectives": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp8/murder-detectives",
-          version: "5.431.187",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp8/murder-detectives",
+            version: "5.0.0"
         },
         "quiplash3-tjsp": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/tjsp/quiplash3",
-          version: "5.436.189",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/tjsp/quiplash3",
+            version: "5.78.0"
         },
         "apply-yourself": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp8/apply-yourself",
-          version: "5.0.0",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp8/apply-yourself",
+            version: "5.0.0"
         },
         "antique-freak": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp9/antique-freak",
-          version: "5.94.0",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp9/antique-freak",
+            version: "5.94.0"
         },
         fourbage: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp9/fourbage",
-          version: "5.528.271",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp9/fourbage",
+            version: "5.528.271"
         },
         htmf: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp9/htmf",
-          version: "5.528.271",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp9/htmf",
+            version: "5.528.271"
         },
         lineup: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp9/lineup",
-          version: "5.297.119",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp9/lineup",
+            version: "5.297.119"
         },
         "range-game": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp9/range-game",
-          version: "5.528.271",
-        },
-        prototype: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/internal/prototype",
-          version: "5.1204.651",
-        },
-        "@teeko-web": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/@teeko-web",
-          version: "5.1212.653",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp9/range-game",
+            version: "5.528.271"
         },
         awshirt2: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp10/awshirt2",
-          version: "5.1265.660",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp10/awshirt2",
+            version: "5.743.354"
         },
         "nopus-opus": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp10/nopus-opus",
-          version: "5.814.418",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp10/nopus-opus",
+            version: "5.349.128"
         },
         "risky-text": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp10/risky-text",
-          version: "5.1266.660",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp10/risky-text",
+            version: "5.356.132"
         },
         "time-trivia": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp10/time-trivia",
-          version: "5.1266.660",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp10/time-trivia",
+            version: "5.348.128"
         },
         "us-them": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp10/us-them",
-          version: "5.1266.660",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp10/us-them",
+            version: "5.528.271"
         },
         captcha: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/ppad/captcha",
-          version: "5.668.302",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/ppad/captcha",
+            version: "5.668.302"
         },
         drawful3: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/ppad/drawful3",
-          version: "5.675.302",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/ppad/drawful3",
+            version: "5.675.302"
         },
         fakinit2: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/ppad/fakinit2",
-          version: "5.596.291",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/ppad/fakinit2",
+            version: "5.596.291"
         },
         bigsurvey: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/standalone/bigsurvey",
-          version: "5.814.418",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/standalone/bigsurvey",
+            version: "5.677.302"
         },
         "mic-game": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp11/sfx",
-          version: "5.1266.660",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp11/sfx",
+            version: "5.1232.654.1"
         },
         "you-ruined-it": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp11/you-ruined-it",
-          version: "5.1266.660",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp11/you-ruined-it",
+            version: "5.1230.654"
         },
         cookies: {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp11/cookies",
-          version: "5.1266.660",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp11/cookies",
+            version: "5.1218.654"
         },
         "dirty-detectives": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp11/dirty-detectives",
-          version: "5.1266.660",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp11/dirty-detectives",
+            version: "5.1222.654"
         },
         "trivia-rpg": {
-          file: "script.js",
-          css: ["assets/style-0.css"],
-          base: "main/pp11/trivia-rpg",
-          version: "5.1246.654",
+            file: "script.js",
+            css: ["assets/style-0.css"],
+            base: "main/pp11/trivia-rpg",
+            version: "5.1227.654"
         },
       },
     },
@@ -21165,4 +21154,4 @@ new j0().setup();
 Vr.setup();
 Py();
 new $y([Xy, jy]);
-//# sourceMappingURL=KMQ6yrBj.js.map
+//# sourceMappingURL=iCETljXF.js.map
