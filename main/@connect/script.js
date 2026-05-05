@@ -46412,11 +46412,6 @@ const QW = Cr(XW, [
       showDefault() {
         this.banners = [
           {
-            url: "https://traducciones.jackbox.lol/informacion/the-jackbox-party-pack-11",
-            image: "/main/@connect/assets/Pack11Promo.png",
-            text: "¡Pack 11 traducido!",
-          },
-          {
             url: "https://traducciones.jackbox.lol/",
             image: "/main/@connect/assets/sitioweb.png",
             text: "¡Nuestras traducciones!",
