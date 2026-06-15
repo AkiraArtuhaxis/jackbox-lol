@@ -22147,140 +22147,140 @@ class U2 {
   }
 }
 const g9 = {
-    BACK: "Volver",
-    CANCEL: "Cancelar",
-    CLOSE: "Cerrar",
-    CONFIRM: "Confirmar",
-    CREATE: "Crear",
-    DELETE: "Borrar",
-    DONE: "Listo",
-    EDIT: "Editar",
-    OK: "Aceptar",
-    NEXT: "Siguiente",
+    BACK: "Back",
+    CANCEL: "Cancel",
+    CLOSE: "Close",
+    CONFIRM: "Confirm",
+    CREATE: "Create",
+    DELETE: "Delete",
+    DONE: "Done",
+    EDIT: "Edit",
+    OK: "OK",
+    NEXT: "Next",
     NO: "No",
-    PLAY: "Jugar",
-    PUBLISH: "Publicar",
-    REMOVE: "Quitar",
-    RESET: "Reiniciar",
-    SUBMIT: "Enviar",
-    TRY_AGAIN: "Volver a intentarlo",
-    UNDO: "Deshacer",
-    YES: "Sí",
+    PLAY: "Play",
+    PUBLISH: "Publish",
+    REMOVE: "Remove",
+    RESET: "Reset",
+    SUBMIT: "Submit",
+    TRY_AGAIN: "Try Again",
+    UNDO: "Undo",
+    YES: "Yes",
   },
   E9 = {
     UGC: {
-      VISIBILITY_CONTROLLER_OFF: "indicaciones ocultas en los dispositivos de los jugadores",
-      VISIBILITY_CONTROLLER_ON: "indicaciones presentes en los dispositivos de los jugadores",
-      VISIBILITY_SCREEN_OFF: "indicaciones ocultas en la pantalla del juego",
-      VISIBILITY_SCREEN_ON: "indicaciones presentes en la pantalla del juego",
+      VISIBILITY_CONTROLLER_OFF: "prompts hidden on players’ devices",
+      VISIBILITY_CONTROLLER_ON: "prompts shown on players’ devices",
+      VISIBILITY_SCREEN_OFF: "prompts hidden on game screen",
+      VISIBILITY_SCREEN_ON: "prompts shown on game screen",
     },
   },
   v9 = {
-    DISCONNECTED: "Te desconectaste.",
-    DRAWING_NOTHING: "¡Tienes que dibujar algo!",
-    PLAYER_KICKED: "Un moderador te expulsó del juego.",
-    ROOM_DESTROYED: "¡Gracias por jugar!",
-    ROOM_DISCONNECTED: "Desconectado",
+    DISCONNECTED: "You have been disconnected.",
+    DRAWING_NOTHING: "You have to draw something!",
+    PLAYER_KICKED: "You have been kicked from the game by a moderator.",
+    ROOM_DESTROYED: "Thanks for playing!",
+    ROOM_DISCONNECTED: "Disconnected",
     TEXT_NAUGHTY:
-      "Lo siento, no puedes escribir eso. Seamos respetuosos con los demás participantes.",
-    TEXT_NOTHING: "¡Tienes que escribir algo!",
+      "I’m afraid you can’t write that. Please be respectful of other players.",
+    TEXT_NOTHING: "You can’t enter nothing!",
     TITLE: "Error",
   },
-  y9 = "CARGANDO",
+  y9 = "LOADING",
   T9 = {
-    JOINED_COUNT: "{count} de {maxPlayers} jugadores se unieron",
+    JOINED_COUNT: "{count} of {maxPlayers} players joined",
     PLAYERS_NEEDED:
-      "Se necesita 1 jugador para empezar | Se necesitan {count} jugadores para empezar",
-    WAITING_FOR_VIP: "Esperando a que {name} inicie la partida",
-    WAITING_FOR_GAMEPAD: "Esperando a que empiece la partida",
-    WAITING_FOR_NEW_GAME: "Esperando a que empiece una partida nueva",
-    GAME_STARTING: "La partida va a empezar",
-    BUTTON_START: "Pulsa para empezar",
-    BUTTON_CANCEL: "Pulsa para cancelar",
+      "1 player needed to start | {count} players needed to start",
+    WAITING_FOR_VIP: "Waiting for {name} to start the game",
+    WAITING_FOR_GAMEPAD: "Waiting for the game to start",
+    WAITING_FOR_NEW_GAME: "Waiting for a new game to start",
+    GAME_STARTING: "Game is starting",
+    BUTTON_START: "Press to Start",
+    BUTTON_CANCEL: "Press to Cancel",
   },
   b9 = {
-    GALLERY_LINK: "Visita la galería",
-    NEW_GAME_STARTED: "Una partida nueva ha empezado",
-    PLAY_AGAIN: "¿Jugar de nuevo?",
-    WHICH_GAME: "¿Qué juego?",
-    WHICH_PLAYERS: "¿Cuáles jugadores?",
-    THANKS_FOR_PLAYING: "¡Gracias por jugar!",
-    BUTTON_GO_TO_GAME: "Ir a la partida",
-    BUTTON_GO_TO_JACKBOX: "Volver a jackbox.lol",
-    BUTTON_PLAY_AGAIN: "Jugar de nuevo",
-    BUTTON_SAME_PLAYERS: "Mismos jugadores",
-    BUTTON_NEW_PLAYERS: "Nuevos jugadores",
-    BUTTON_CHANGE_GAME: "Cambiar de juego",
-    BUTTON_NEXT_GAME: "Jugar a {gameName}",
+    GALLERY_LINK: "Visit the Gallery",
+    NEW_GAME_STARTED: "A new game has started",
+    PLAY_AGAIN: "Play again?",
+    WHICH_GAME: "Which game?",
+    WHICH_PLAYERS: "Which players?",
+    THANKS_FOR_PLAYING: "Thanks for playing!",
+    BUTTON_GO_TO_GAME: "Go to game",
+    BUTTON_GO_TO_JACKBOX: "Back to jackbox.tv",
+    BUTTON_PLAY_AGAIN: "Play again",
+    BUTTON_SAME_PLAYERS: "Same players",
+    BUTTON_NEW_PLAYERS: "New players",
+    BUTTON_CHANGE_GAME: "Change game",
+    BUTTON_NEXT_GAME: "Play {gameName}",
   },
-  R9 = { AND: "Y", OR: "O" },
-  x9 = { BUTTON_SKIP: "Omitir", BUTTON_NEXT: "Siguiente", BUTTON_DONE: "¡Vamos!" },
-  S9 = { NAME: "PÚBLICO" },
+  R9 = { AND: "AND", OR: "OR" },
+  x9 = { BUTTON_SKIP: "Skip", BUTTON_NEXT: "Next", BUTTON_DONE: "Let’s Go!" },
+  S9 = { NAME: "AUDIENCE" },
   C9 = {
     CART: {
-      CHECK_OUT: "Comprar ahora",
-      EMPTY: "Tu carrito está vacío",
-      TITLE: "Carrito de compras",
+      CHECK_OUT: "Check out",
+      EMPTY: "Your cart is empty",
+      TITLE: "Shopping Cart",
       TOTAL: "Total",
     },
   },
   A9 = {
-    EPISODE_REPORT: "Denunciar episodio",
-    EPISODE_UNLOAD: "Descargar episodio",
-    EPISODE_VIEW_AUTHOR: "Ver autor",
-    EPISODES_LOAD: "Cargar un episodio por ID:",
-    EPISODES_MENU: "Menú de episodios",
-    EPISODES_SELECT: "O selecciona un episodio:",
-    EPISODES_WARNING: "Aviso: El contenido de los usuarios no tiene clasificación por edades",
+    EPISODE_REPORT: "Report Episode",
+    EPISODE_UNLOAD: "Unload Episode",
+    EPISODE_VIEW_AUTHOR: "View Author",
+    EPISODES_LOAD: "Load an episode by id:",
+    EPISODES_MENU: "Episodes Menu",
+    EPISODES_SELECT: "Or select an epsiode:",
+    EPISODES_WARNING: "Warning: user generated content is not rated",
     INSTRUCTION: {
       CREATE_TITLE:
-        "Lo primero que debes hacer es escribir un nombre para el episodio que contendrá todas sus indicaciones y pulsar crear.",
-      LOAD: "¿Crear o cargar?",
-      PUBLISH: "Publica tu episodio",
-      TITLE: "Nombra tu episodio",
-      TOGGLE_VISIBILITY: "Pulsa para mostrar/ocultar las indicaciones",
-      WRITE: "Escribe tus indicaciones",
+        "first things first, enter a name for the episode that will contain all your prompts and hit create.",
+      LOAD: "create or load?",
+      PUBLISH: "publish your episode",
+      TITLE: "name your episode",
+      TOGGLE_VISIBILITY: "tap to show/hide prompts",
+      WRITE: "write your prompts",
     },
     WARNING: {
-      DELETE: "¿De verdad quieres borrar este episodio?",
-      TOS: "Al compartir contenido, aceptas nuestros [tos]Términos de servicio[/tos]",
-      TOS_AGREE: "Aceptar y compartir",
+      DELETE: "Are you sure you want to delete this episode?",
+      TOS: "By sharing content, you agree to our [tos]Terms of Service[/tos]",
+      TOS_AGREE: "agree and share",
     },
-    BACK_TO_EPISODES: "Volver a los episodios",
-    BACK_TO_MENU: "Volver al menú",
-    CREATE_NEW_EPISODE: "Crear un nuevo episodio",
-    PREVIOUS_EPISODES: "Episodios anteriores",
-    PROMPT_ADD: "Añadir indicación",
-    PROMPT_PLACEHOLDER: "Escribe una indicación",
-    PROMPTS_COUNT_HIDDEN: "({count} oculto(s))",
-    TITLE_PLACEHOLDER: "Escribir un título",
+    BACK_TO_EPISODES: "back to episodes",
+    BACK_TO_MENU: "back to menu",
+    CREATE_NEW_EPISODE: "create a new episode",
+    PREVIOUS_EPISODES: "previous episodes",
+    PROMPT_ADD: "add prompt",
+    PROMPT_PLACEHOLDER: "enter a prompt",
+    PROMPTS_COUNT_HIDDEN: "({count} hidden)",
+    TITLE_PLACEHOLDER: "enter a title",
   },
   L9 = {
     BROADCASTER: {
       SUBTEXT:
-        "Conectaste correctamente tu cuenta a la extensión para Twitch del kit para público de Jackbox.",
-      WARNING: "ESTA SALA NO TIENE ACTIVADA LA OPCIÓN DE PÚBLICO",
+        "You have successfully connected your account to the Jackbox Audience Kit Twitch Extension.",
+      WARNING: "THIS ROOM DOESN'T HAVE THE AUDIENCE SETTING ENABLED",
     },
-    RECONNECTED: { TEXT: "CONEXIÓN RESTABLECIDA", SUBTEXT: "¡Diviértete!" },
+    RECONNECTED: { TEXT: "RECONNECTED", SUBTEXT: "Have fun!" },
     RECONNECTING: {
       CONTROLLER: {
-        TEXT: "CONEXIÓN INTERRUMPIDA",
-        SUBTEXT: "Intento de reconexión ({attempt} de 5)",
+        TEXT: "CONNECTION INTERRUPTED",
+        SUBTEXT: "Attempting to reconnect ({attempt} of 5)",
       },
       GAME: {
-        TEXT: "SE INTERRUMPIÓ LA CONEXIÓN AL JUEGO",
-      SUBTEXT: "Espera mientras intentamos restablecer la conexión.",
+        TEXT: "GAME CONNECTION INTERRUPTED",
+        SUBTEXT: "Please wait while we attempt to reconnect",
       },
     },
     PAUSED: {
-      TEXT: "EL JUEGO ESTÁ EN PAUSA",
-      SUBTEXT: "Todo lo que ingreses será enviado al juego.",
+      TEXT: "THE GAME IS PAUSED",
+      SUBTEXT: "Anything you submit will still be sent to the game.",
     },
   },
   w9 = {
-    SHARE: "Compartir",
-    COPY_TO_CLIPBOARD: "Copiar al portapapeles",
-    COPIED: "Se copió",
+    SHARE: "Share",
+    COPY_TO_CLIPBOARD: "Copy to clipboard",
+    COPIED: "Copied",
   },
   O9 = {
     ACTION: g9,
@@ -22358,7 +22358,7 @@ const g9 = {
     WHICH_PLAYERS: "Avec quels joueurs ?",
     THANKS_FOR_PLAYING: "Merci d'avoir joué !",
     BUTTON_GO_TO_GAME: "Aller au jeu",
-    BUTTON_GO_TO_JACKBOX: "Retour à jackbox.lol",
+    BUTTON_GO_TO_JACKBOX: "Retour à jackbox.tv",
     BUTTON_PLAY_AGAIN: "Rejouer",
     BUTTON_SAME_PLAYERS: "Mêmes joueurs",
     BUTTON_NEW_PLAYERS: "Nouveaux joueurs",
@@ -22517,7 +22517,7 @@ const g9 = {
     WHICH_PLAYERS: "Quali giocatori?",
     THANKS_FOR_PLAYING: "Grazie per aver scelto di giocare con noi!",
     BUTTON_GO_TO_GAME: "Vai al gioco",
-    BUTTON_GO_TO_JACKBOX: "Torna a jackbox.lol",
+    BUTTON_GO_TO_JACKBOX: "Torna a jackbox.tv",
     BUTTON_PLAY_AGAIN: "Gioca di nuovo",
     BUTTON_SAME_PLAYERS: "Stessi giocatori",
     BUTTON_NEW_PLAYERS: "Nuovi giocatori",
@@ -22673,7 +22673,7 @@ const g9 = {
     WHICH_PLAYERS: "Welche Spieler?",
     THANKS_FOR_PLAYING: "Danke fürs Spielen!",
     BUTTON_GO_TO_GAME: "Zum Spiel",
-    BUTTON_GO_TO_JACKBOX: "Zurück zu jackbox.lol",
+    BUTTON_GO_TO_JACKBOX: "Zurück zu jackbox.tv",
     BUTTON_PLAY_AGAIN: "Erneut spielen",
     BUTTON_SAME_PLAYERS: "Selbe Spieler",
     BUTTON_NEW_PLAYERS: "Neue Spieler",
@@ -22832,9 +22832,9 @@ const g9 = {
     WHICH_PLAYERS: "¿Qué jugadores?",
     THANKS_FOR_PLAYING: "¡Gracias por jugar!",
     BUTTON_GO_TO_GAME: "Ir a al juego",
-    BUTTON_GO_TO_JACKBOX: "Volver a jackbox.lol",
+    BUTTON_GO_TO_JACKBOX: "Volver a jackbox.tv",
     BUTTON_PLAY_AGAIN: "Jugar de nuevo",
-    BUTTON_SAME_PLAYERS: "Mismos jugadores",
+    BUTTON_SAME_PLAYERS: "Los mismos jugadores",
     BUTTON_NEW_PLAYERS: "Nuevos jugadores",
     BUTTON_CHANGE_GAME: "Cambiar de juego",
     BUTTON_NEXT_GAME: "Jugar a {gameName}",
@@ -22990,9 +22990,9 @@ const g9 = {
     WHICH_PLAYERS: "¿Cuáles jugadores?",
     THANKS_FOR_PLAYING: "¡Gracias por jugar!",
     BUTTON_GO_TO_GAME: "Ir a la partida",
-    BUTTON_GO_TO_JACKBOX: "Volver a jackbox.lol",
+    BUTTON_GO_TO_JACKBOX: "Volver a jackbox.tv",
     BUTTON_PLAY_AGAIN: "Jugar de nuevo",
-    BUTTON_SAME_PLAYERS: "Mismos jugadores",
+    BUTTON_SAME_PLAYERS: "Los mismos jugadores",
     BUTTON_NEW_PLAYERS: "Nuevos jugadores",
     BUTTON_CHANGE_GAME: "Cambiar de juego",
     BUTTON_NEXT_GAME: "Jugar a {gameName}",
@@ -23147,7 +23147,7 @@ const g9 = {
     WHICH_PLAYERS: "Quais jogadores?",
     THANKS_FOR_PLAYING: "Obrigado por jogar!",
     BUTTON_GO_TO_GAME: "Ir para o jogo",
-    BUTTON_GO_TO_JACKBOX: "Voltar para jackbox.lol",
+    BUTTON_GO_TO_JACKBOX: "Voltar para jackbox.tv",
     BUTTON_PLAY_AGAIN: "Jogar de novo",
     BUTTON_SAME_PLAYERS: "Mesmos jogadores",
     BUTTON_NEW_PLAYERS: "Outros jogadores",
@@ -37260,17 +37260,17 @@ function nH(t, e, n, i, s, a) {
         e[5] ||
           (e[5] = V(
             "a",
-            { class: "logo", href: "/", "aria-label": "Logo de Jackbox Games" },
+            { class: "logo", href: "/", "aria-label": "Jackbox Games Logo" },
             null,
             -1,
           )),
         V("div", tH, [
-          e[1] || (e[1] = V("h1", null, "Se ha producido un error", -1)),
+          e[1] || (e[1] = V("h1", null, "You have encountered an error", -1)),
           e[2] ||
             (e[2] = V(
               "p",
               null,
-              "¡Algo salió mal! Pero no te preocupes, puedes probar algunas cosas para seguir.",
+              "Something went wrong! But don't worry, you can try a few things to get going.",
               -1,
             )),
           e[3] ||
@@ -37278,15 +37278,15 @@ function nH(t, e, n, i, s, a) {
               "ul",
               null,
               [
-                V("li", null, "Recarga la página"),
+                V("li", null, "Refresh the page"),
                 V(
                   "li",
                   null,
-                  "Desactiva los bloqueadores de anuncios u otras extensiones del navegador.",
+                  "Turn off adblockers or other browser extensions.",
                 ),
-                V("li", null, "Comprueba tu conexión a Internet."),
-                V("li", null, "Asegúrate de estar utilizando un navegador actualizado."),
-                V("li", null, "Si eso no funciona, háznoslo saber."),
+                V("li", null, "Check your connection to the Internet."),
+                V("li", null, "Make sure you're using an up-to-date browser."),
+                V("li", null, "If that doesn't work, let us know."),
               ],
               -1,
             )),
@@ -37297,7 +37297,7 @@ function nH(t, e, n, i, s, a) {
                 e[0] ||
                 (e[0] = (...r) => t.onFeedbackClick && t.onFeedbackClick(...r)),
             },
-            "Dinos qué pasó",
+            "Tell us what happened",
           ),
           e[4] || (e[4] = V("hr", null, null, -1)),
           V("pre", rH, nt(t.message), 1),
@@ -42019,40 +42019,40 @@ const TJ = (t) => {
     });
   },
   bJ = {
-    BLOOPER_REEL: "bloopers",
-    RECAP: "recapitulación",
+    BLOOPER_REEL: "blooper reel",
+    RECAP: "recap",
     LOGO: "logo",
-    MOST_LIKES: "más likes",
-    WINNER: "gana",
+    MOST_LIKES: "most likes",
+    WINNER: "winner",
   },
   RJ = {
-    AVATAR_0: "Un pato de aspecto tonto",
-    AVATAR_1: "Un par de ojos que sobresalen de debajo de una manta",
-    AVATAR_2: "Dos ojos encima de dos piernas",
-    AVATAR_3: "Un diamante geométrico con ojo, patas y nariz larga",
-    AVATAR_4: "Una gota de tinta con pequeños ojos",
-    AVATAR_5: "Un pequeño gusano muy amigable",
-    AVATAR_6: "Una nube esponjosa con ojos diminutos",
-    AVATAR_7: "Una gota de arcilla azul con un ojo grande",
+    AVATAR_0: "A doofy looking duck",
+    AVATAR_1: "A pair of eyes poking out from under a blanket",
+    AVATAR_2: "Two eyes on top of two legs",
+    AVATAR_3: "A geometric diamond with eye, legs and a long nose",
+    AVATAR_4: "An ink blob void with tiny eyes",
+    AVATAR_5: "A very friendly little worm",
+    AVATAR_6: "A fluffy cloud with tiny eyes",
+    AVATAR_7: "A blob of blue clay with one big eye",
   },
   xJ = {
-    ACKNOWLEDGE: "Entendido",
+    ACKNOWLEDGE: "Got it",
     AUDIENCE:
-      "Hear Say funciona mejor cuando se juega con micrófono, pero también se puede participar sin él. ¿Continuar con la configuración del micrófono?",
+      "Hear Say works best when you play with a microphone, but you can still participate without one. Continue microphone setup?",
     DENY: "Nah",
-    NO_ACCESS: "Oh-oh, parece que tu navegador no puede acceder a un micrófono.",
+    NO_ACCESS: "Ruh-roh, it looks like your browser can't access a microphone.",
     NO_ACCESS_INFO:
-      "Accede a la configuración de tu navegador y activa el acceso al micrófono. Luego, actualiza la página.",
+      "Please go to the settings for your browser and enable microphone access. Then refresh.",
     NO_DEVICES:
-      "No encontramos ningún dispositivo de entrada conectado. Conecta un micrófono y actualiza la página.",
+      "We are not able to find any connected input devices. Please plug in a microphone and refresh.",
     WILL_ASK:
-      "Hear Say necesita acceder a tu micrófono para funcionar correctamente. En la siguiente pantalla, tu navegador te solicitará permiso.",
+      "Hear Say needs access to your microphone to work properly. On the next screen your browser will ask you for permission.",
   },
-  SJ = { GIVE_LIKES: "Da algunos likes", VOTE_FOR_ONE: "¡Vota por uno!" },
+  SJ = { GIVE_LIKES: "Give some likes", VOTE_FOR_ONE: "Vote for one!" },
   CJ = {
-    ICON: "¡Ya no estamos usando tu micrófono! En algunos dispositivos, los iconos permanecen visibles y desaparecerán al actualizar el navegador. ¡Gracias!",
+    ICON: "We're no longer using your mic! On certain devices icons stay visible, they'll disappear once you refresh your browser. Thanks!",
     PRIVACY:
-      "Este un resumen de los puntajes. Por privacidad, no almacenamos tus sonidos ni videos al salir de la partida. ¡Gracias por jugar!",
+      "Here's a recap of your player scores. For privacy reasons we don't store your sounds and videos after you exit a game. Thanks for playing!",
   },
   AJ = { ALT: bJ, AVATARS: RJ, PERMISSIONS: xJ, VOTING: SJ, POST_GAME: CJ },
   LJ = { en: AJ };
@@ -42200,8 +42200,8 @@ class wJ extends c9 {
     );
   }
   formatDeviceName(n, i) {
-    let s = n.label || `Micrófono (${n.deviceId.slice(0, 8)})`;
-    return ((s = s.replace(/ \([^()]*\)/g, "")), i && (s += " (Por defecto)"), s);
+    let s = n.label || `Microphone (${n.deviceId.slice(0, 8)})`;
+    return ((s = s.replace(/ \([^()]*\)/g, "")), i && (s += " (Default)"), s);
   }
   updateDeviceList(n) {
     const i = new Set(n.map((a) => a.id)),
@@ -56082,16 +56082,16 @@ function zne(t, e, n, i, s, a) {
             { class: "message", style: jr(t.scoreStyles) },
             [
               t.game.data.status === "waiting"
-                ? (Y(), te("span", jne, "Prepárate"))
+                ? (Y(), te("span", jne, "Get Ready"))
                 : Ke("", !0),
               t.game.data.status === "active"
                 ? (Y(), te("span", Wne, nt(t.game.score), 1))
                 : Ke("", !0),
               t.game.data.status === "active"
-                ? (Y(), te("span", Xne, "¡YA!"))
+                ? (Y(), te("span", Xne, "GO!"))
                 : Ke("", !0),
               t.game.data.status === "finished"
-                ? (Y(), te("span", Hne, "¡Hecho!"))
+                ? (Y(), te("span", Hne, "Done!"))
                 : Ke("", !0),
             ],
             4,
@@ -56332,16 +56332,16 @@ function hie(t, e, n, i, s, a) {
       [
         V("div", nie, [
           t.game.data.status === "waiting"
-            ? (Y(), te("span", iie, "Prepárate"))
+            ? (Y(), te("span", iie, "Get Ready"))
             : Ke("", !0),
           t.game.data.status === "active"
             ? (Y(), te("span", sie, nt(t.game.score), 1))
             : Ke("", !0),
           t.game.data.status === "active"
-            ? (Y(), te("span", aie, "¡YA!"))
+            ? (Y(), te("span", aie, "GO!"))
             : Ke("", !0),
           t.game.data.status === "finished"
-            ? (Y(), te("span", oie, "¡Hecho!"))
+            ? (Y(), te("span", oie, "Done!"))
             : Ke("", !0),
         ]),
         V("div", uie, [
@@ -56940,13 +56940,13 @@ function Mie(t, e, n, i, s, a) {
         V("div", Rie, [
           V("div", xie, [
             t.game.data.status === "waiting"
-              ? (Y(), te("span", Sie, "Prepárate"))
+              ? (Y(), te("span", Sie, "Get Ready"))
               : Ke("", !0),
             t.game.data.status === "active"
-              ? (Y(), te("span", Cie, "¡YA"))
+              ? (Y(), te("span", Cie, "GO!"))
               : Ke("", !0),
             t.game.data.status === "finished"
-              ? (Y(), te("span", Aie, "¡Hecho!"))
+              ? (Y(), te("span", Aie, "Done!"))
               : Ke("", !0),
           ]),
           V(
@@ -57080,7 +57080,7 @@ const Fh = rt(Fie, [
     ["__scopeId", "data-v-90800b12"],
   ]),
   Wie = dt({ props: { text: { type: String, required: !1 } } }),
-  Xie = { class: "edge-button left replay-button", "aria-label": "repetir" },
+  Xie = { class: "edge-button left replay-button", "aria-label": "replay" },
   Hie = { key: 0, viewBox: "0 0 200 150", class: "text" },
   Yie = { href: "#replay-path", startOffset: "50%", "text-anchor": "middle" };
 function zie(t, e, n, i, s, a) {
@@ -57118,7 +57118,7 @@ const gD = rt(Wie, [
     ["__scopeId", "data-v-90e9f51c"],
   ]),
   Jie = dt({ props: { text: { type: String, required: !1 } } }),
-  Zie = { class: "edge-button right retry-button", "aria-label": "reintentar" },
+  Zie = { class: "edge-button right retry-button", "aria-label": "retry" },
   Qie = { key: 0, viewBox: "0 0 200 150", class: "text" },
   ese = { href: "#retry-path", startOffset: "50%", "text-anchor": "middle" };
 function tse(t, e, n, i, s, a) {
@@ -57156,7 +57156,7 @@ const ED = rt(Jie, [
     ["__scopeId", "data-v-47c8f7e4"],
   ]),
   rse = {},
-  nse = { class: "start-button", "aria-label": "empezar el juego" };
+  nse = { class: "start-button", "aria-label": "start the game" };
 function ise(t, e) {
   return (
     Y(),
@@ -57166,7 +57166,7 @@ function ise(t, e) {
       e[0] ||
         (e[0] = [
           ba(
-            '<svg viewBox="0 0 200 200" class="sketch" data-v-17f39e52><circle class="background" cx="100" cy="100" r="100" data-v-17f39e52></circle><circle class="line" cx="100" cy="100" r="104" data-v-17f39e52></circle><path class="fill" d="M59.06,108.07c.53-2.13,3.55-2.84,3.89-4.72.41-2.26-2.52-3.32-2.37-6.28.13-2.58,2.65-7.78,4.85-9.22.58-.38,6.88-3.03,7.47-3.09,1.58-.16,6.96.3,8.74.51,1.96.23,6.93,2.47,7.98.38.94-2.74-2.14-3.49-3.5-5.3-3.79-5.06-4.94-15.89-2.33-21.61,2.42-5.29,10.56-10.43,14.75-4.44,2.32,3.32,1.44,5.18,1.88,8.67.69,5.39,6.31,12.96,10.49,16.32,3.14,2.52,7.63,3.61,10.32,5.94,3.23,2.8,2.81,7.11,8.36,6.59,2.2-.21,3.08-1.59,5.61-.34,1.49.74,1.84,2.12,2.03,3.68.74,6.21,1.09,18.49-.58,24.37-.75,2.64-3.55,4.44-6.21,4.77-2.45.31-5.18-1.14-6.78-.66-1.3.39-2.35,2.7-3.8,3.7-9.62,6.69-25.78,6.72-36.87,9.28l-1.06.46h-1.32c-5.33-1.22-9.58-2.22-11.74-7.81-1.51-3.9.39-3.9.75-6.51.47-3.47-2.43-2.49-4.74-3.12-1.51-.41-4.14-2.58-4.81-3.98s-.19-2.86-.98-4.08v-3.52ZM98.02,116.99c2.47,2.21,1.78,5.71-.53,7.76-1.24,1.1-9.1,4.48-5.93,6.39,2.44.9,4.53-1.2,6.8-1.99,6.12-2.14,12.18-2.65,17.77-6.39,2.1-1.4,4.34-5.03,6.51-5.39,2.57-.43,4.12,3.7,7.09,1.87,2.64-1.62.88-4.44.92-6.56.07-3.46.17-8.01.44-11.43.13-1.68,1.7-3.52.21-5.04-2.69-2.76-5.25,2.81-8.3.82-1.08-.7-3.61-6.25-5.96-8.09-1.85-1.45-4.16-1.84-6.13-3.1-5.91-3.77-15.48-14.8-15.85-21.96-.1-1.88,1.48-7.89-2.37-7.68-3.49.19-5.13,6.69-5.13,9.46,0,3.38,2.68,12.44,4.51,15.31,1.66,2.61,4.78,3.61,6.59,7.03,1.42,2.67,2.02,7.73,3.5,9.68,1.28,1.69,7.39,3.36,4.81,6.69-2.55,3.3-8.55-2.63-9.61-5.41-.99-2.58-1.3-11.13-4.77-11.46-4.37-.42.26,5.99.31,7.61.06,2.25-2.21,3.44-1.72,5.16.33,1.16,3.24,1.88,4.34,3.16,1.47,1.72,2.46,4.88,1.26,6.99-.87,1.53-4.6,2.02-3.86,4.37.43,1.35,3.8,1.03,5.09,2.19ZM73.84,89.76c-5.62.29-12.74,12.59-2.25,12.17,4.46-.18,19.38-2.17,17.24-9.38-.71-2.41-4.03-1.41-5.83-1.64-2.83-.35-6.35-1.3-9.17-1.16ZM86.62,103.78c-1.32.25-3.01,1.5-4.28,1.87-2.16.63-7.23,1.27-9.46,1.12-2.41-.17-6.74-2.5-7.91,1.28-1.53,4.94,1.95,8.28,6.61,8.81,5.19.59,14.68-2.02,18.47-5.7s2.21-8.46-3.43-7.39ZM91.36,117.94c-3.68.65-7.12,2.28-10.74,3.11-3.81.88-8.25-.64-6.95,5.59.68,3.24,6.31,6.89,9.27,4.64,2.37-3.35,17.2-10.23,8.43-13.34Z" data-v-17f39e52></path><path class="fingers" d="M131.11,101.25c.13-1.68,1.7-3.52.21-5.04-2.69-2.76-5.25,2.81-8.3.82-1.08-.7-3.61-6.25-5.96-8.09-1.85-1.45-4.16-1.84-6.13-3.1-5.91-3.77-15.48-14.8-15.85-21.96-.1-1.88,1.48-7.89-2.37-7.68-3.49.19-5.13,6.69-5.13,9.46,0,3.38,2.68,12.44,4.51,15.31,1.66,2.61,4.78,3.61,6.59,7.03,1.42,2.67,2.02,7.73,3.5,9.68,1.28,1.69,7.39,3.36,4.81,6.69-2.55,3.3-8.55-2.63-9.61-5.41-.99-2.58-1.3-11.13-4.77-11.46-4.37-.42.26,5.99.31,7.61.06,2.25-2.21,3.44-1.72,5.16.33,1.16,3.24,1.88,4.34,3.16,1.47,1.72,2.46,4.88,1.26,6.99-.87,1.53-4.6,2.02-3.86,4.37.43,1.35,3.8,1.03,5.09,2.19,2.47,2.21,1.78,5.71-.53,7.76-1.24,1.1-9.1,4.48-5.93,6.39,2.44.9,4.53-1.2,6.8-1.99,6.12-2.14,12.18-2.65,17.77-6.39,2.09-1.4,4.34-5.03,6.51-5.39,2.57-.43,4.12,3.7,7.09,1.87,2.64-1.62.88-4.44.92-6.56.07-3.46.17-8.01.44-11.43ZM90.05,111.16c3.78-3.67,2.21-8.46-3.43-7.39-1.32.25-3.01,1.5-4.28,1.87-2.16.63-7.23,1.27-9.46,1.12-2.41-.17-6.74-2.5-7.91,1.28-1.53,4.94,1.95,8.28,6.61,8.81,5.19.59,14.68-2.02,18.47-5.7ZM71.6,101.94c4.46-.18,19.38-2.17,17.24-9.38-.71-2.41-4.03-1.41-5.83-1.64-2.83-.35-6.35-1.3-9.17-1.16-5.62.29-12.74,12.59-2.25,12.17ZM91.36,117.94c-3.68.65-7.12,2.28-10.74,3.11-3.81.88-8.25-.64-6.95,5.59.68,3.24,6.31,6.89,9.27,4.64,2.37-3.35,17.2-10.23,8.43-13.34Z" data-v-17f39e52></path></svg><svg viewBox="0 0 200 200" class="text" data-v-17f39e52><defs data-v-17f39e52><path id="start-path" d="M55.01,136.97c-12.26-14.95-16.81-35.69-10.24-55.39,10.17-30.5,43.15-46.98,73.65-36.81,30.5,10.17,46.98,43.15,36.81,73.65-6.57,19.7-22.65,33.55-41.44,38.15" data-v-17f39e52></path></defs><text data-v-17f39e52><textPath href="#start-path" startOffset="50%" text-anchor="middle" data-v-17f39e52>EMPEZAR EL JUEGO</textPath></text></svg>',
+            '<svg viewBox="0 0 200 200" class="sketch" data-v-17f39e52><circle class="background" cx="100" cy="100" r="100" data-v-17f39e52></circle><circle class="line" cx="100" cy="100" r="104" data-v-17f39e52></circle><path class="fill" d="M59.06,108.07c.53-2.13,3.55-2.84,3.89-4.72.41-2.26-2.52-3.32-2.37-6.28.13-2.58,2.65-7.78,4.85-9.22.58-.38,6.88-3.03,7.47-3.09,1.58-.16,6.96.3,8.74.51,1.96.23,6.93,2.47,7.98.38.94-2.74-2.14-3.49-3.5-5.3-3.79-5.06-4.94-15.89-2.33-21.61,2.42-5.29,10.56-10.43,14.75-4.44,2.32,3.32,1.44,5.18,1.88,8.67.69,5.39,6.31,12.96,10.49,16.32,3.14,2.52,7.63,3.61,10.32,5.94,3.23,2.8,2.81,7.11,8.36,6.59,2.2-.21,3.08-1.59,5.61-.34,1.49.74,1.84,2.12,2.03,3.68.74,6.21,1.09,18.49-.58,24.37-.75,2.64-3.55,4.44-6.21,4.77-2.45.31-5.18-1.14-6.78-.66-1.3.39-2.35,2.7-3.8,3.7-9.62,6.69-25.78,6.72-36.87,9.28l-1.06.46h-1.32c-5.33-1.22-9.58-2.22-11.74-7.81-1.51-3.9.39-3.9.75-6.51.47-3.47-2.43-2.49-4.74-3.12-1.51-.41-4.14-2.58-4.81-3.98s-.19-2.86-.98-4.08v-3.52ZM98.02,116.99c2.47,2.21,1.78,5.71-.53,7.76-1.24,1.1-9.1,4.48-5.93,6.39,2.44.9,4.53-1.2,6.8-1.99,6.12-2.14,12.18-2.65,17.77-6.39,2.1-1.4,4.34-5.03,6.51-5.39,2.57-.43,4.12,3.7,7.09,1.87,2.64-1.62.88-4.44.92-6.56.07-3.46.17-8.01.44-11.43.13-1.68,1.7-3.52.21-5.04-2.69-2.76-5.25,2.81-8.3.82-1.08-.7-3.61-6.25-5.96-8.09-1.85-1.45-4.16-1.84-6.13-3.1-5.91-3.77-15.48-14.8-15.85-21.96-.1-1.88,1.48-7.89-2.37-7.68-3.49.19-5.13,6.69-5.13,9.46,0,3.38,2.68,12.44,4.51,15.31,1.66,2.61,4.78,3.61,6.59,7.03,1.42,2.67,2.02,7.73,3.5,9.68,1.28,1.69,7.39,3.36,4.81,6.69-2.55,3.3-8.55-2.63-9.61-5.41-.99-2.58-1.3-11.13-4.77-11.46-4.37-.42.26,5.99.31,7.61.06,2.25-2.21,3.44-1.72,5.16.33,1.16,3.24,1.88,4.34,3.16,1.47,1.72,2.46,4.88,1.26,6.99-.87,1.53-4.6,2.02-3.86,4.37.43,1.35,3.8,1.03,5.09,2.19ZM73.84,89.76c-5.62.29-12.74,12.59-2.25,12.17,4.46-.18,19.38-2.17,17.24-9.38-.71-2.41-4.03-1.41-5.83-1.64-2.83-.35-6.35-1.3-9.17-1.16ZM86.62,103.78c-1.32.25-3.01,1.5-4.28,1.87-2.16.63-7.23,1.27-9.46,1.12-2.41-.17-6.74-2.5-7.91,1.28-1.53,4.94,1.95,8.28,6.61,8.81,5.19.59,14.68-2.02,18.47-5.7s2.21-8.46-3.43-7.39ZM91.36,117.94c-3.68.65-7.12,2.28-10.74,3.11-3.81.88-8.25-.64-6.95,5.59.68,3.24,6.31,6.89,9.27,4.64,2.37-3.35,17.2-10.23,8.43-13.34Z" data-v-17f39e52></path><path class="fingers" d="M131.11,101.25c.13-1.68,1.7-3.52.21-5.04-2.69-2.76-5.25,2.81-8.3.82-1.08-.7-3.61-6.25-5.96-8.09-1.85-1.45-4.16-1.84-6.13-3.1-5.91-3.77-15.48-14.8-15.85-21.96-.1-1.88,1.48-7.89-2.37-7.68-3.49.19-5.13,6.69-5.13,9.46,0,3.38,2.68,12.44,4.51,15.31,1.66,2.61,4.78,3.61,6.59,7.03,1.42,2.67,2.02,7.73,3.5,9.68,1.28,1.69,7.39,3.36,4.81,6.69-2.55,3.3-8.55-2.63-9.61-5.41-.99-2.58-1.3-11.13-4.77-11.46-4.37-.42.26,5.99.31,7.61.06,2.25-2.21,3.44-1.72,5.16.33,1.16,3.24,1.88,4.34,3.16,1.47,1.72,2.46,4.88,1.26,6.99-.87,1.53-4.6,2.02-3.86,4.37.43,1.35,3.8,1.03,5.09,2.19,2.47,2.21,1.78,5.71-.53,7.76-1.24,1.1-9.1,4.48-5.93,6.39,2.44.9,4.53-1.2,6.8-1.99,6.12-2.14,12.18-2.65,17.77-6.39,2.09-1.4,4.34-5.03,6.51-5.39,2.57-.43,4.12,3.7,7.09,1.87,2.64-1.62.88-4.44.92-6.56.07-3.46.17-8.01.44-11.43ZM90.05,111.16c3.78-3.67,2.21-8.46-3.43-7.39-1.32.25-3.01,1.5-4.28,1.87-2.16.63-7.23,1.27-9.46,1.12-2.41-.17-6.74-2.5-7.91,1.28-1.53,4.94,1.95,8.28,6.61,8.81,5.19.59,14.68-2.02,18.47-5.7ZM71.6,101.94c4.46-.18,19.38-2.17,17.24-9.38-.71-2.41-4.03-1.41-5.83-1.64-2.83-.35-6.35-1.3-9.17-1.16-5.62.29-12.74,12.59-2.25,12.17ZM91.36,117.94c-3.68.65-7.12,2.28-10.74,3.11-3.81.88-8.25-.64-6.95,5.59.68,3.24,6.31,6.89,9.27,4.64,2.37-3.35,17.2-10.23,8.43-13.34Z" data-v-17f39e52></path></svg><svg viewBox="0 0 200 200" class="text" data-v-17f39e52><defs data-v-17f39e52><path id="start-path" d="M55.01,136.97c-12.26-14.95-16.81-35.69-10.24-55.39,10.17-30.5,43.15-46.98,73.65-36.81,30.5,10.17,46.98,43.15,36.81,73.65-6.57,19.7-22.65,33.55-41.44,38.15" data-v-17f39e52></path></defs><text data-v-17f39e52><textPath href="#start-path" startOffset="50%" text-anchor="middle" data-v-17f39e52>START THE GAME</textPath></text></svg>',
             2,
           ),
         ]),
@@ -57319,7 +57319,7 @@ function dse(t, e, n, i, s, a) {
               ? (Y(),
                 Ht(
                   c,
-                  { key: 0, text: "Repetir", onClick: t.onPlayClick },
+                  { key: 0, text: "Replay", onClick: t.onPlayClick },
                   null,
                   8,
                   ["onClick"],
@@ -57346,7 +57346,7 @@ function dse(t, e, n, i, s, a) {
               ? (Y(),
                 Ht(
                   h,
-                  { key: 0, text: "Reintentar", onClick: t.onRerecordClick },
+                  { key: 0, text: "Retry", onClick: t.onRerecordClick },
                   null,
                   8,
                   ["onClick"],
@@ -57421,7 +57421,7 @@ function Ese(t, e, n, i, s, a) {
         (e[1] = V(
           "p",
           { class: "message" },
-          [V("span", null, "Haz ruido")],
+          [V("span", null, "Make Noise")],
           -1,
         )),
       V(
@@ -58107,13 +58107,13 @@ const Lae = dt({
       buttonText() {
         switch (this.status) {
           case "countout":
-            return "Enviarlo";
+            return "Send it";
           case "error":
             return "ERROR";
           case "recording":
-            return "Grabando";
+            return "Recording";
           case "waiting":
-            return "Grabar";
+            return "Record";
           default:
             return "";
         }
@@ -58165,9 +58165,9 @@ const Lae = dt({
       statusText() {
         switch (this.status) {
           case "processing":
-            return "Procesando";
+            return "Processing";
           case "sending":
-            return "Enviando";
+            return "Sending";
           default:
             return "";
         }
@@ -58249,7 +58249,7 @@ function Mae(t, e, n, i, s, a) {
           V("text", Dae, [V("textPath", Bae, nt(t.message), 1)]),
         ])),
         V("span", null, nt(t.buttonText), 1),
-        t.status === "error" ? (Y(), te("span", Uae, "Inténtalo de nuevo")) : Ke("", !0),
+        t.status === "error" ? (Y(), te("span", Uae, "Try Again")) : Ke("", !0),
       ],
       2,
     )
@@ -58289,7 +58289,7 @@ const Kae = rt(Lae, [
       },
       displayDuration() {
         const t = Math.round(this.player.durationMs / 1e3) || 1;
-        return `aprox. ${t} ${t === 1 ? "segundo" : "segundos"}`;
+        return `about ${t} ${t === 1 ? "second" : "seconds"} long`;
       },
       info() {
         return this.player.totalPrompts <= 1
@@ -58449,7 +58449,7 @@ function Qae(t, e, n, i, s, a) {
         ft(
           r,
           { info: t.info },
-          { default: Ds(() => e[0] || (e[0] = [Tr("Graba un sonido")])), _: 1 },
+          { default: Ds(() => e[0] || (e[0] = [Tr("Record a sound")])), _: 1 },
           8,
           ["info"],
         ),
@@ -58492,7 +58492,7 @@ function Qae(t, e, n, i, s, a) {
               ? (Y(),
                 Ht(
                   c,
-                  { key: 0, text: "Reintentar", onClick: t.onRetryClick },
+                  { key: 0, text: "Retry", onClick: t.onRetryClick },
                   null,
                   8,
                   ["onClick"],
@@ -58508,7 +58508,7 @@ function Qae(t, e, n, i, s, a) {
                   e[1] ||
                     (e[1] = [
                       Tr(
-                        " Por favor revisa tu micrófono y recarga tu navegador.",
+                        " Please check your microphone and refresh your browser.",
                       ),
                       V("span", null, "(sfx-00)", -1),
                     ]),
@@ -58522,7 +58522,7 @@ function Qae(t, e, n, i, s, a) {
                   e[2] ||
                     (e[2] = [
                       Tr(
-                        " Por favor revisa tu micrófono y recarga tu navegador.",
+                        " Please check your microphone and refresh your browser.",
                       ),
                       V("span", null, "(sfx-01)", -1),
                     ]),
@@ -58536,7 +58536,7 @@ function Qae(t, e, n, i, s, a) {
                   e[3] ||
                     (e[3] = [
                       Tr(
-                        " Por favor revisa tu micrófono y recarga tu navegador.",
+                        " Please check your microphone and refresh your browser.",
                       ),
                       V("span", null, "(sfx-02)", -1),
                     ]),
@@ -58550,7 +58550,7 @@ function Qae(t, e, n, i, s, a) {
                   e[4] ||
                     (e[4] = [
                       Tr(
-                        " Por favor revisa tu micrófono y recarga tu navegador.",
+                        " Please check your microphone and refresh your browser.",
                       ),
                       V("span", null, "(sfx-03)", -1),
                     ]),
@@ -58564,7 +58564,7 @@ function Qae(t, e, n, i, s, a) {
                   e[5] ||
                     (e[5] = [
                       Tr(
-                        " No pudimos enviar tu audio. Comprueba tu conexión.",
+                        " We were unable to send your audio. Check your connection",
                       ),
                       V("span", null, "(sfx-04)", -1),
                     ]),
@@ -58577,7 +58577,7 @@ function Qae(t, e, n, i, s, a) {
                   Zae,
                   e[6] ||
                     (e[6] = [
-                      Tr(" Por favor recarga tu navegador."),
+                      Tr(" Please refresh your browser."),
                       V("span", null, "(sfx-05)", -1),
                     ]),
                 ))
@@ -58811,7 +58811,7 @@ const Eoe = rt(_oe, [
       info() {
         return !this.player.currentPromptNumber || !this.player.totalPrompts
           ? null
-          : `${this.player.currentPromptNumber} de ${this.player.totalPrompts}`;
+          : `${this.player.currentPromptNumber} of ${this.player.totalPrompts}`;
       },
       prompt() {
         return this.player.kind === "voting"
@@ -58994,7 +58994,7 @@ function Aoe(t, e, n, i, s, a) {
       ft(r, { avatar: t.info.avatar ?? 3, class: "outline-thick" }, null, 8, [
         "avatar",
       ]),
-      V("p", Coe, nt(t.player.message ?? "Esperando"), 1),
+      V("p", Coe, nt(t.player.message ?? "Waiting"), 1),
     ])
   );
 }
@@ -59013,7 +59013,7 @@ function Ooe(t, e) {
       e[0] ||
         (e[0] = [
           ba(
-            '<span class="background" data-v-5bb9ed58></span><svg class="sketch" viewBox="0 0 200 200" data-v-5bb9ed58><path class="line" d="M155,85v-36c0-2.21-1.79-4-4-4h-36.32" data-v-5bb9ed58></path><path class="door line" d="M114.68,200V30.31c0-2.66-2.55-4.58-5.1-3.84l-64.58,18.54v155" data-v-5bb9ed58></path><polygon class="handle" points="101.5 128.6 91.29 127.6 91.29 118.4 101.5 117.4 101.5 128.6" data-v-5bb9ed58></polygon><line class="line" x1="132.68" y1="122" x2="155" y2="122" data-v-5bb9ed58></line><polygon class="line" points="154.77 103.76 172.93 121.92 154.77 140.08 154.77 103.76" data-v-5bb9ed58></polygon><line class="line" x1="154.77" y1="160" x2="154.77" y2="200" data-v-5bb9ed58></line></svg><span class="border sketch" data-v-5bb9ed58></span><span class="text" data-v-5bb9ed58>Salir</span>',
+            '<span class="background" data-v-5bb9ed58></span><svg class="sketch" viewBox="0 0 200 200" data-v-5bb9ed58><path class="line" d="M155,85v-36c0-2.21-1.79-4-4-4h-36.32" data-v-5bb9ed58></path><path class="door line" d="M114.68,200V30.31c0-2.66-2.55-4.58-5.1-3.84l-64.58,18.54v155" data-v-5bb9ed58></path><polygon class="handle" points="101.5 128.6 91.29 127.6 91.29 118.4 101.5 117.4 101.5 128.6" data-v-5bb9ed58></polygon><line class="line" x1="132.68" y1="122" x2="155" y2="122" data-v-5bb9ed58></line><polygon class="line" points="154.77 103.76 172.93 121.92 154.77 140.08 154.77 103.76" data-v-5bb9ed58></polygon><line class="line" x1="154.77" y1="160" x2="154.77" y2="200" data-v-5bb9ed58></line></svg><span class="border sketch" data-v-5bb9ed58></span><span class="text" data-v-5bb9ed58>Leave</span>',
             4,
           ),
         ]),
@@ -59140,7 +59140,7 @@ function joe(t, e, n, i, s, a) {
                   (e[5] = V(
                     "p",
                     { class: "title" },
-                    "Elegir dispositivo de entrada",
+                    "Select input device",
                     -1,
                   )),
                 V(
@@ -59198,7 +59198,7 @@ function joe(t, e, n, i, s, a) {
                       128,
                     )),
                   ]))
-                : (Y(), te("p", Foe, "No se encontraron dispositivos de entrada")),
+                : (Y(), te("p", Foe, "No input devices found")),
             ]),
           ],
           32,
@@ -59223,7 +59223,7 @@ function Yoe(t, e) {
       e[0] ||
         (e[0] = [
           ba(
-            '<span class="background" data-v-37720b7d></span><svg class="sketch" viewBox="0 0 200 200" data-v-37720b7d><path class="line" d="M45,83v22c0,30.38,24.62,55,55,55s55-24.62,55-55v-22" data-v-37720b7d></path><line class="line" x1="100" y1="160" x2="100" y2="200" data-v-37720b7d></line><path class="line mic" d="M130,102c0,16.57-13.43,30-30,30s-30-13.43-30-30v-47c0-16.57,13.43-30,30-30s30,13.43,30,30v47Z" data-v-37720b7d></path></svg><span class="border sketch" data-v-37720b7d></span><span class="text" data-v-37720b7d>Opciones del micrófono</span>',
+            '<span class="background" data-v-37720b7d></span><svg class="sketch" viewBox="0 0 200 200" data-v-37720b7d><path class="line" d="M45,83v22c0,30.38,24.62,55,55,55s55-24.62,55-55v-22" data-v-37720b7d></path><line class="line" x1="100" y1="160" x2="100" y2="200" data-v-37720b7d></line><path class="line mic" d="M130,102c0,16.57-13.43,30-30,30s-30-13.43-30-30v-47c0-16.57,13.43-30,30-30s30,13.43,30,30v47Z" data-v-37720b7d></path></svg><span class="border sketch" data-v-37720b7d></span><span class="text" data-v-37720b7d>Mic options</span>',
             4,
           ),
         ]),
@@ -59344,28 +59344,28 @@ const iue = rt(tue, [
       return {
         tips: [
           {
-            title: "Consejos de actuación: ",
+            title: "Performance tips: ",
             index: 0,
             tips: [
-              "Los sonidos están sincronizados para adaptarse a momentos específicos del juego, ¡así que intenta llenar todo tu tiempo de grabación!",
-              "¿No sabes qué grabar? ¡Escucha a otros jugadores para inspirarte!",
-              "¡Pruébalo tú mismo una o dos veces antes de presionar Grabar!",
-              "¿No sabes cómo actuar? Intenta hablar como si fueras muy perezoso o tuvieras mucha prisa.",
-              "¿Quieres destacarte? Intenta hablar en mayúsculas.",
-              "Un consejo: intenta decir tu enunciado en un susurro fuerte.",
-              "¿No sabes cómo actuar? Intenta incluir pausas dramáticas.",
-              "Prueba una voz o acento de personaje con el que te sientas cómodo/a.",
+              "Sounds are timed to fit specific game moments, so try to fill up all your recording time!",
+              "Not sure what to record? Listen to other players to get ideas!",
+              "Try it out once or twice for yourself before pressing Record!",
+              "Not sure how to perform? Try speaking like you’re super lazy or very much in a rush.",
+              "Want to stand out? Try speaking in all caps.",
+              "Pro tip: try saying your prompt in a loud whisper voice",
+              "Not sure how to perform? Try including dramatic pauses.",
+              "Try a character voice or accent you’re comfortable with.",
             ],
           },
           {
-            title: "Consejos prácticos: ",
+            title: "Practical tips: ",
             index: 0,
             tips: [
-              "Sostén el micrófono en tu boca y comprueba que no lo estés bloqueando (¡es el pequeño orificio!)",
-              "Si tus sonidos te parecen demasiado suaves, acércate. Si los sientes demasiado fuertes, aléjate.",
-              "Para tener la mejor calidad de sonido, usa un teléfono o un micrófono externo, pero evita los micrófonos de computadoras portátiles si puedes.",
-              "Nuestros micrófonos te graban a ti, no a la habitación, pero muévete a otro lugar si es necesario.",
-              "¿Problemas con el micrófono? Toca el icono de configuración en la esquina inferior izquierda para hacer cambios o prueba actualizar la página.",
+              "Hold the mic to your mouth and check that you're not blocking it (It's the little pinhole!)",
+              "If your sounds feel too soft, get closer. If your sounds feel too loud, move away.",
+              "For the highest sound quality, use a phone or an external mic. Avoid laptop mics if you can!",
+              "Our microphones record you, not the room, but move around if you need to.",
+              "Mic issues? Tap the settings icon at the bottom left to make changes, or try refreshing!",
             ],
           },
         ],
@@ -59464,7 +59464,7 @@ function hue(t, e, n, i, s, a) {
                           "button",
                           {
                             class: "direction left sketch",
-                            "aria-label": "izquierda",
+                            "aria-label": "left",
                             disabled: f.index === 0,
                             onClick: (d) => t.onLeftClick(f),
                           },
@@ -59512,7 +59512,7 @@ function hue(t, e, n, i, s, a) {
                           "button",
                           {
                             class: "direction right sketch",
-                            "aria-label": "derecha",
+                            "aria-label": "right",
                             disabled: f.index === f.tips.length - 1,
                             onClick: (d) => t.onRightClick(f),
                           },
@@ -59581,7 +59581,7 @@ function mue(t, e) {
       e[0] ||
         (e[0] = [
           ba(
-            '<span class="background" data-v-d53660ee></span><svg class="sketch" viewBox="0 0 200 200" data-v-d53660ee><path class="line" d="M129.63,132.01c4.75,6.95,7.53,15.35,7.53,24.4s-2.72,17.29-7.39,24.19" data-v-d53660ee></path><path class="line" d="M152.16,115.23c8.24,11.63,13.08,25.84,13.08,41.18s-4.49,28.5-12.19,39.89" data-v-d53660ee></path><path class="face" d="M80.97,2.25c5.98,11.39,12.6,24.48,12.6,34.61,0,1.94,0,3.88-.02,5.8-.16,14.26,1.47,29.95,9.52,41.72l5.6,8.19c5.22,7.63,2.76,18.11-5.33,22.61l-6.23,3.47v17.65l-17.3,12.05c-4.67,3.25-4.45,10.22.41,13.17l13.34,8.1-12.75,28.98C34.76,189.65,0,149.1,0,100.44S34.84,11.13,80.97,2.25Z" data-v-d53660ee></path><path class="line" d="M80.97,2.25c5.98,11.39,12.6,24.48,12.6,34.61,0,1.94,0,3.88-.02,5.8-.16,14.26,1.47,29.95,9.52,41.72l5.6,8.19c5.22,7.63,2.76,18.11-5.33,22.61l-6.23,3.47v17.65l-17.3,12.05c-4.67,3.25-4.45,10.22.41,13.17l13.34,8.1-12.75,28.98" data-v-d53660ee></path><polygon class="eye" points="72.05 88.06 53.72 87.5 55.75 63.64 74.08 65.2 72.05 88.06" data-v-d53660ee></polygon></svg><span class="border sketch" data-v-d53660ee></span><span class="text" data-v-d53660ee>Consejos</span>',
+            '<span class="background" data-v-d53660ee></span><svg class="sketch" viewBox="0 0 200 200" data-v-d53660ee><path class="line" d="M129.63,132.01c4.75,6.95,7.53,15.35,7.53,24.4s-2.72,17.29-7.39,24.19" data-v-d53660ee></path><path class="line" d="M152.16,115.23c8.24,11.63,13.08,25.84,13.08,41.18s-4.49,28.5-12.19,39.89" data-v-d53660ee></path><path class="face" d="M80.97,2.25c5.98,11.39,12.6,24.48,12.6,34.61,0,1.94,0,3.88-.02,5.8-.16,14.26,1.47,29.95,9.52,41.72l5.6,8.19c5.22,7.63,2.76,18.11-5.33,22.61l-6.23,3.47v17.65l-17.3,12.05c-4.67,3.25-4.45,10.22.41,13.17l13.34,8.1-12.75,28.98C34.76,189.65,0,149.1,0,100.44S34.84,11.13,80.97,2.25Z" data-v-d53660ee></path><path class="line" d="M80.97,2.25c5.98,11.39,12.6,24.48,12.6,34.61,0,1.94,0,3.88-.02,5.8-.16,14.26,1.47,29.95,9.52,41.72l5.6,8.19c5.22,7.63,2.76,18.11-5.33,22.61l-6.23,3.47v17.65l-17.3,12.05c-4.67,3.25-4.45,10.22.41,13.17l13.34,8.1-12.75,28.98" data-v-d53660ee></path><polygon class="eye" points="72.05 88.06 53.72 87.5 55.75 63.64 74.08 65.2 72.05 88.06" data-v-d53660ee></polygon></svg><span class="border sketch" data-v-d53660ee></span><span class="text" data-v-d53660ee>Tips</span>',
             4,
           ),
         ]),
@@ -59622,7 +59622,7 @@ const gue = rt(due, [
       info: (t, { id: e }) => {
         if (!t.connectedPlayers) return;
         const n = t.connectedPlayers[e];
-        return n || { id: e, avatar: 0, isVip: !1, name: "PÚBLICO" };
+        return n || { id: e, avatar: 0, isVip: !1, name: "AUDIENCE" };
       },
       player: (t, { id: e }) =>
         t.audiencePlayer ? t.audiencePlayer : t[`player:${e}`],
@@ -59815,9 +59815,9 @@ const gue = rt(due, [
           try {
             if (
               (await this.$showModal("Options", {
-                text: "¿De verdad que quieres salir?",
+                text: "Are you sure you want to leave?",
                 options: [
-                  { text: "Sí", value: "yes" },
+                  { text: "Yes", value: "yes" },
                   { text: "No", value: "no" },
                 ],
               })) !== "yes"
