@@ -3937,14 +3937,14 @@ const $0 = [
     directory: "pp1/drawful",
   },
   {
-    name: "Word Spud",
+    name: "Papa Palabra",
     tag: "wordspud",
     wrapper: "marionette",
     isPublic: !0,
     directory: "pp1/wordspud",
   },
   {
-    name: "Lie Swatter",
+    name: "Mata Mentiras",
     tag: "lieswatter",
     wrapper: "marionette",
     isPublic: !0,
@@ -3972,14 +3972,14 @@ const $0 = [
     directory: "pp2/earwax",
   },
   {
-    name: "Bidiots",
+    name: "Subastardos",
     tag: "auction",
     wrapper: "marionette",
     isPublic: !0,
     directory: "pp2/auction",
   },
   {
-    name: "Bomb Corp",
+    name: "Bomba S.A.",
     tag: "bombintern",
     wrapper: "marionette",
     isPublic: !0,
@@ -3993,7 +3993,7 @@ const $0 = [
     directory: "pp2/quiplash",
   },
   {
-    name: "Fakin' It",
+    name: "Engáñame",
     tag: "fakinit",
     wrapper: "marionette",
     isPublic: !0,
@@ -4025,7 +4025,7 @@ const $0 = [
     categoryId: "TriviaDeathResults",
   },
   {
-    name: "Guesspionage",
+    name: "Espiadivinos",
     tag: "pollposition",
     wrapper: "marionette",
     isPublic: !0,
@@ -4039,7 +4039,7 @@ const $0 = [
     directory: "pp4/fibbage3",
   },
   {
-    name: "Survive the Internet",
+    name: "Sobrevive al Internet",
     tag: "survivetheinternet",
     wrapper: "marionette",
     isPublic: !0,
@@ -4047,7 +4047,7 @@ const $0 = [
     categoryId: "STIGame",
   },
   {
-    name: "Monster Seeking Monster",
+    name: "Monstruo Busca Monstruo",
     tag: "monstermingle",
     wrapper: "marionette",
     isPublic: !0,
@@ -4063,7 +4063,7 @@ const $0 = [
     categoryId: "BRKGame",
   },
   {
-    name: "Civic Doodle",
+    name: "Garabato Cívico",
     tag: "overdrawn",
     wrapper: "marionette",
     isPublic: !0,
@@ -4080,7 +4080,7 @@ const $0 = [
     categoryId: "YDKJ2018Game",
   },
   {
-    name: "Split the Room",
+    name: "Divide la Sala",
     tag: "splittheroom",
     wrapper: "marionette",
     isPublic: !0,
@@ -4104,7 +4104,7 @@ const $0 = [
     categoryId: "SlingShootGame",
   },
   {
-    name: "Patently Stupid",
+    name: "Patentes Dementes",
     tag: "patentlystupid",
     wrapper: "marionette",
     isPublic: !0,
@@ -4121,7 +4121,7 @@ const $0 = [
     categoryId: "TriviaDeath2Game",
   },
   {
-    name: "Role Models",
+    name: "Modelo a Seguir",
     tag: "rolemodels",
     wrapper: "marionette",
     isPublic: !0,
@@ -4131,7 +4131,7 @@ const $0 = [
     shopItems: ["shirts"],
   },
   {
-    name: "Joke Boat",
+    name: "Crucero Cómico",
     tag: "jokeboat",
     wrapper: "marionette",
     isPublic: !0,
@@ -4139,7 +4139,7 @@ const $0 = [
     categoryId: "JokeboatGame",
   },
   {
-    name: "Dictionarium",
+    name: "Diccionarium",
     tag: "ridictionary",
     wrapper: "marionette",
     isPublic: !0,
@@ -4147,7 +4147,7 @@ const $0 = [
     categoryId: "RidictionaryGame",
   },
   {
-    name: "Push the Button",
+    name: "Pulsa el Botón",
     tag: "pushthebutton",
     wrapper: "marionette",
     isPublic: !0,
@@ -4173,7 +4173,7 @@ const $0 = [
     categoryId: "quiplash3Game",
   },
   {
-    name: "The Devils and the Details",
+    name: "La Familia es un Infierno",
     tag: "everyday",
     wrapper: "marionette",
     isPublic: !0,
@@ -4192,7 +4192,7 @@ const $0 = [
     shopItems: ["cards"],
   },
   {
-    name: "Blather 'Round",
+    name: "Balbuceando Juntos",
     tag: "blanky-blank",
     wrapper: "marionette",
     isPublic: !0,
@@ -4200,7 +4200,7 @@ const $0 = [
     categoryId: "BlankyBlankGame",
   },
   {
-    name: "Job Job",
+    name: "Bajo Trabajo",
     tag: "apply-yourself",
     wrapper: "vue",
     isPublic: !0,
@@ -4209,7 +4209,7 @@ const $0 = [
     features: ["moderation", "previews"],
   },
   {
-    name: "Drawful Animate",
+    name: "Drawful Animado",
     tag: "drawful-animate",
     wrapper: "vue",
     isPublic: !0,
@@ -4218,7 +4218,7 @@ const $0 = [
     features: ["moderation"],
   },
   {
-    name: "The Wheel of Enormous Proportions",
+    name: "La Ruleta de Enormes Proporciones",
     tag: "the-wheel",
     wrapper: "vue",
     isPublic: !0,
@@ -4234,7 +4234,7 @@ const $0 = [
     categoryId: "SurveyBombGame",
   },
   {
-    name: "Weapons Drawn",
+    name: "Trazo del Crimen",
     tag: "murder-detectives",
     wrapper: "vue",
     isPublic: !0,
